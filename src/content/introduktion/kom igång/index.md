@@ -1,13 +1,12 @@
 ---
-title: Min kurs
+title: Installation
 layout: 'layouts/theme-area.njk'
 category: område
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
-    key: min kurs
-    parent: kom igång
-    order: 2
-    excerpt: En steg för steg guide till att skapa en kurs
+    key: installation
+    parent: introduktion
+    order: 0
+    excerpt: Fix
 ---
-
 
