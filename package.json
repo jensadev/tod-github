@@ -1,7 +1,7 @@
 {
-    "name": "tod",
+    "name": "tod-github",
     "version": "2.3.2",
-    "description": "Tema område del",
+    "description": "Tema område del för GitHub",
     "scripts": {
         "clean:tod": "rm -f src/json/*.json",
         "color-tokens": "a11y-color-tokens --no-compatibilityDocs --outputDirPath='src/sass' --colorTokensPath='src/_theme/color-tokens.js'",
@@ -28,7 +28,7 @@
     "bugs": {
         "url": "https://github.com/jensnti/tod/issues"
     },
-    "homepage": "https://tod.jensa.dev",
+    "homepage": "https://github.jensa.dev",
     "dependencies": {
         "@11ty/eleventy": "^2.0.0-canary.16",
         "@11ty/eleventy-img": "^2.0.1",

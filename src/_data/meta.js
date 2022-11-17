@@ -41,14 +41,14 @@ module.exports = {
     // page language
     language: 'sv',
     // Sidans namn, måste överrensstämma med src/index.md title front matter
-    siteName: 'Ämnestitel',
-    primaryColor: curated[0].p, // curated[0-31] pick or color string '#ff4e50'
-    secondaryColor: curated[0].s, // pick or color string '#ff4e50'
+    siteName: 'GitHub - Kursmaterial',
+    primaryColor: curated[7].p, // curated[0-31] pick or color string '#ff4e50'
+    secondaryColor: curated[7].s, // pick or color string '#ff4e50'
     siteDescription:
-        'Instruktionssida för siteskaparen för Tema Område Del, TOD.',
+        'Kursmaterial för att komma igång med att använda GitHub i undervisningen.',
     author: {
         name: 'Jens Andreasson',
-        email: 'jensandreasson77@gmail.com',
+        email: 'jens.andreasson@ntig.se',
         url: 'https://jensa.dev',
     },
 };
