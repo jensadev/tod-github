@@ -1,0 +1,41 @@
+@use "sass:color";
+@use "../vars";
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: var(--step--2) 0;
+    margin: 0;
+
+    list-style: none;
+    color: var(--color-on-primary);
+
+    @media (min-width: vars.$width-mid) {
+        font-size: var(--step-1);
+    }
+
+    &__item {
+        @media (max-width: vars.$width-mid) {
+            &:nth-child(-n+2) {
+                display: none;
+            }
+        }
+        &--active {
+            color: var(--color-on-primary);
+        }
+        + .breadcrumb__item {
+            padding-left: var(--step--2);
+            letter-spacing: var(--ls-neg);
+            &::before {
+                content: '>';
+                float: left;
+                padding-right: var(--step--2);
+            }
+        }
+        &-link {
+            color: var(--color-on-primary);
+            text-decoration: none;
+        }
+    }
+}

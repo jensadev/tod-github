@@ -1,0 +1,67 @@
+{
+    "name": "tod",
+    "version": "2.3.2",
+    "description": "Tema område del",
+    "scripts": {
+        "clean:tod": "rm -f src/json/*.json",
+        "color-tokens": "a11y-color-tokens --no-compatibilityDocs --outputDirPath='src/sass' --colorTokensPath='src/_theme/color-tokens.js'",
+        "watch:sass": "sass --no-source-map --watch src/sass:src/_includes/assets/css",
+        "watch:eleventy": "eleventy --serve",
+        "watch:rollup": "rollup -c -w",
+        "build:sass": "sass --no-source-map src/sass:src/_includes/assets/css",
+        "build:eleventy": "eleventy",
+        "build:rollup": "rollup -c",
+        "start": "npm-run-all clean:tod color-tokens build:sass build:eleventy --parallel watch:*",
+        "build": "npm-run-all clean:tod color-tokens build:sass build:eleventy --parallel build:*",
+        "lint": "eslint --fix .",
+        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jensnti/tod.git"
+    },
+    "keywords": [
+        "education"
+    ],
+    "author": "Jens Andreasson",
+    "license": "CC BY-NC 4.0",
+    "bugs": {
+        "url": "https://github.com/jensnti/tod/issues"
+    },
+    "homepage": "https://tod.jensa.dev",
+    "dependencies": {
+        "@11ty/eleventy": "^2.0.0-canary.16",
+        "@11ty/eleventy-img": "^2.0.1",
+        "@11ty/eleventy-navigation": "^0.3.5",
+        "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+        "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
+        "@rollup/plugin-commonjs": "^22.0.2",
+        "@rollup/plugin-json": "^4.1.0",
+        "@rollup/plugin-node-resolve": "^14.1.0",
+        "a11y-color-tokens": "^0.6.0",
+        "canvas-confetti": "^1.5.1",
+        "date-fns": "^2.29.3",
+        "elasticlunr": "^0.9.5",
+        "fast-glob": "^3.2.12",
+        "html-minifier": "^4.0.0",
+        "jsdom": "^20.0.1",
+        "markdown-it": "^13.0.1",
+        "markdown-it-anchor": "^8.6.5",
+        "markdown-it-attrs": "^4.1.4",
+        "markdown-it-link-attributes": "^4.0.1",
+        "npm-run-all": "^4.1.5",
+        "rollup": "^2.79.1",
+        "rollup-plugin-gzip": "^3.0.1",
+        "rollup-plugin-svg-import": "^1.6.0",
+        "rollup-plugin-terser": "^7.0.2",
+        "sass": "^1.55.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.24.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-simple-import-sort": "^8.0.0",
+        "prettier": "^2.7.1"
+    }
+}

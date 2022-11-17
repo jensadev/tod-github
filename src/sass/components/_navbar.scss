@@ -1,0 +1,35 @@
+.navbar {
+    color: var(--color-on-primary);
+    background-color: var(--color-primary);
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        min-height: var(--step-6);
+    }
+    &__header {
+        white-space: nowrap;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        a {
+            text-decoration: none;
+            color: inherit;
+            &:hover {
+                color: inherit;
+            }
+        }
+    }
+    &__left {
+        display: none;
+        gap: var(--step-0);
+        @media (min-width: 320px) {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            // gap: var(--step-0);
+        }
+    }
+}

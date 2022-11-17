@@ -1,0 +1,24 @@
+{% set currentPage %}{{ page.fileSlug }}{% endset %}
+{% set navPages = collections.all | eleventyNavigation(eleventyNavigation.parent) %}
+<nav class="nav-bottom" role="navigation">
+    <ul class="nav-bottom__list">
+        {%- set previousPost = navPages | prev(page.url) %}
+        <li class="nav-bottom__list-item">
+            {%- if previousPost %}
+                <a class="nav-bottom__list-item-link" href="{{ previousPost.url | url }}">
+                    {% svg "chevron_left_FILL0_wght400_GRAD0_opsz24.svg" %}
+                    <span class="nav-bottom__list-text--left">{{ previousPost.title | capitalize }}</span>
+                </a>
+            {% endif %}
+        </li>
+        {%- set nextPost = navPages | next(page.url) %}
+        <li class="nav-bottom__list-item {{ 'test' if nextPost.test }}">
+            {%- if nextPost %}
+                <a class="nav-bottom__list-item-link" href="{{ nextPost.url | url }}">
+                    <span class="nav-bottom__list-text--right">{{ nextPost.title | capitalize }}</span>
+                    {% svg "chevron_right_FILL0_wght400_GRAD0_opsz24.svg" %}
+                </a>
+            {% endif %}
+        </li>
+    </ul>
+</nav>
