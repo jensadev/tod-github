@@ -99,6 +99,7 @@ const setup = (jsonData, consentState = null) => {
                         `#heading-${area.area}`
                     );
                     // console.log(area.area, areaTotal, areaCompleted);
+                    // console.log(area.area);
                     createProgressBar(areaElement, areaTotal, areaCompleted);
                     themeTotal += areaTotal > 0 ? areaTotal : 0;
                     themeCompleted += areaCompleted > 0 ? areaCompleted : 0;
@@ -108,7 +109,7 @@ const setup = (jsonData, consentState = null) => {
                 `#heading-${theme.theme}`
             );
             // console.log('------' + theme.theme, themeTotal, themeCompleted);
-            createProgressBar(themeHeader, themeTotal, themeCompleted);
+            // createProgressBar(themeHeader, themeTotal, themeCompleted);
         }
     }
     const testElements = document.querySelectorAll('.test');

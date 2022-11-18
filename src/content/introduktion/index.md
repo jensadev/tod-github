@@ -1,11 +1,16 @@
 ---
-title: Introduktion
+title: introduktion
 layout: 'layouts/theme-area.njk'
 category: tema
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
     key: introduktion
-    parent: github - träning
     order: 0
-    excerpt: Hur kommer jag igång och använder GitHub i min undervisning och vad behöver jag veta.
+    excerpt: asdf
 ---
+
+{% lead %}
+Många lärare vill använda Git och GitHub i sin undervisning, men de är osäkra på hur. Hur kommer jag igång, hur använder jag det och hur kan jag använda det i undervisningen? Gemensamt är att vi vill känna att vi behärskar det vi ska använda i klassrummet.
+{% endlead %}
+
+Detta är en introduktion till Git och GitHub för lärare.

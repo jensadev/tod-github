@@ -41,9 +41,9 @@ module.exports = {
     // page language
     language: 'sv',
     // Sidans namn, måste överrensstämma med src/index.md title front matter
-    siteName: 'GitHub - Kursmaterial',
-    primaryColor: curated[7].p, // curated[0-31] pick or color string '#ff4e50'
-    secondaryColor: curated[7].s, // pick or color string '#ff4e50'
+    siteName: 'Git och GitHub',
+    primaryColor: curated[9].p, // curated[0-31] pick or color string '#ff4e50'
+    secondaryColor: curated[9].s, // pick or color string '#ff4e50'
     siteDescription:
         'Kursmaterial för att komma igång med att använda GitHub i undervisningen.',
     author: {
