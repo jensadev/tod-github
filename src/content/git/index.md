@@ -1,13 +1,11 @@
 ---
-title: Kom igång
+title: Git
 layout: 'layouts/theme-area.njk'
-category: område
+category: tema
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
-    key: kom igång
-    parent: introduktion
-    order: 2
+    key: git
+    order: 1
     excerpt: asdf
 ---
-
 

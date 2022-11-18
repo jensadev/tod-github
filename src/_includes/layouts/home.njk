@@ -13,7 +13,7 @@ id="main-content"
         {% include "components/updates.njk" %}
     </header>
     <div class="accordion" id="accordion">
-        {% set navPages = collections.all | eleventyNavigation(title.toLowerCase()) %}
+        {% set navPages = collections.all | eleventyNavigation(key) %}
         {% for entry in navPages | filterNavPages %}
         <div class="accordion__inner flow">
             <div class="accordion__item accordion__item--top" title="Tema: {{ entry.excerpt }}">

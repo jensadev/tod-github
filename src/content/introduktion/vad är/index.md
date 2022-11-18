@@ -1,12 +1,12 @@
 ---
-title: Kom igång
+title: Vad är
 layout: 'layouts/theme-area.njk'
 category: område
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
-    key: kom igång
+    key: vad är
     parent: introduktion
-    order: 2
+    order: 0
     excerpt: asdf
 ---
 
