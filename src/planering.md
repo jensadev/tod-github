@@ -76,6 +76,13 @@ Skapa och initialisera ett repository med GitHub desktop.
 
 Ditt repo är skapat och ändringarna, skapa readme är redan committade.
 
-{% image "github-desktop-repo-new-commit.png", "GitHub desktop - New repository commit" %}
+I det här steget så är repositoryt skapat och det finns en README.md fil i det. Det finns också en commit som är skapad och som är committad till repositoryt.
+Det du nu kan göra med GitHub (till skillnad från Git) är att pusha dina ändringar till GitHub.
 
+Det gör du genom att klicka på den blå knappen i GitHub desktop som heter "Publish repository". 
 
+I dialogrutan som kommer upp så kan du välja att publicera ditt repository till GitHub. Du väljer där repositoryts namn och synlighet, om det ska vara public eller private.
+
+{% image "github-desktop-publish-repo.png", "GitHub desktop - Publish repository" %}
+
+När repositoryt är publicerat så syns det på GitHub och du kan välja att öppna det i din webbläsare genom att klicka på View on GitHub.
