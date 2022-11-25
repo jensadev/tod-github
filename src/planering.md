@@ -23,6 +23,8 @@ GitHub är ett webbaserat verktyg för att samarbeta kring kod. Det är ett verk
 
 Versionshantering är ett sätt att spara och hantera ändringar i filer. Det är ett sätt att spara historiken för filer och för att kunna återställa tidigare versioner av filerna.
 
+Du har säkert arbetat med någon form av versionshantering utan att reflektera över det. Tänk dig att du arbetar med ett dokument på din dator, men du sparar en säkerhetskopia eller bara en ny arbetsversion av dokumentet. Du kan sedan välja att spara den nya versionen som en ny fil eller som en ny version av den gamla filen. Om du väljer att spara den som en ny version av den gamla filen så har du nu en versionshistorik för dokumentet. Du kan sedan välja att återställa en tidigare version av dokumentet.
+
 ### Samarbete
 
 Versionshantering är också ett sätt att samarbeta kring filer. Det är ett sätt att dela filer och att kunna samarbeta kring dem. Det är också ett sätt att kunna spåra ändringar i filerna och för att kunna återställa tidigare versioner av filerna.
