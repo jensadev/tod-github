@@ -118,12 +118,12 @@ select {
   Modify colors in src/_theme/color-tokens.js
  */
 :root {
-  --color-primary: #633370;
-  --color-on-primary: #C7ABCE;
-  --color-primary--light: #824393;
-  --color-primary--dark: #44234d;
-  --color-on-primary--light: #dccbe1;
-  --color-on-primary--dark: #b28bbb;
+  --color-primary: #4b0082;
+  --color-on-primary: #B585D8;
+  --color-primary--light: #6800b5;
+  --color-primary--dark: #2e004f;
+  --color-on-primary--light: #ccace4;
+  --color-on-primary--dark: #9e5ecc;
   --color-white: hsl(0deg, 0%, 98%);
   --color-gray-100: hsl(0deg, 0%, 96%);
   --color-gray-200: hsl(0deg, 0%, 93%);

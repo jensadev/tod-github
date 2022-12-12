@@ -1,7 +1,7 @@
 ---
-title: Installera Git
+title: Git
 eleventyNavigation:
-    key: installera git
+    key: git
     parent: kom igång
     order: 2
     excerpt: asdf

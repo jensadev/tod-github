@@ -9,9 +9,9 @@ eleventyNavigation:
 
 {% intro %}
 
-Versionshantering är ett sätt att spara och hantera ändringar i filer. Det är ett sätt att spara historiken för filer och för att kunna återställa tidigare versioner av filerna.
+[Versionshantering](https://sv.wikipedia.org/wiki/Versionshantering) är ett sätt att spara och hantera ändringar i filer. Det är ett sätt att spara historiken för filer och för att kunna återställa tidigare versioner av filerna, eller kunna se vad som ändrats i en fil och av vem.
 
-SVN och Git är två exempel på versionshanteringssystem.
+[SVN](https://sv.wikipedia.org/wiki/Apache_Subversion) och [Git](https://sv.wikipedia.org/wiki/Git_(datorprogram)) är två exempel på versionshanteringssystem.
 
 ### Tänk på
 
@@ -21,11 +21,25 @@ SVN och Git är två exempel på versionshanteringssystem.
 
 {% instruktioner %}
 
-Vad är det och varför ska jag använda det?
-Varför ska jag lära ut det och varför ska mina elever använda Git?
-
 Du har förmodligen använt en versionshantering på ett eller annat sätt tidigare. Backups på mappar, en kopia av en fil, flera sätt?
 
-Distribuerat versionshanteringssystem (DVCS) är ett sätt att spara och hantera ändringar i filer. Det är ett sätt att spara historiken för filer och för att kunna återställa tidigare versioner av filerna.
+Du kan tänka på versionshantering som en tidslinje för filer. Du kan se vad när en fil har skapats eller tagits bort, vem som har gjort ändringar och vad som har ändrats. Du kan gå fram och tillbaka i tidslinjen och se hur filen såg ut vid olika tidpunkter.
+
+Versionshantering låter dig även skapa grenar från tidslinjen. Du kan bryta dig ur en gren och fortsätta arbeta på en annan gren. Du kan sedan slå ihop de två grenarna igen.
+
+Att arbetat i ett versionshanteringssystem brukar kallas för att en arbetar med ett arbetsflöde.
 
 {% endinstruktioner %}
+
+{% uppgifter %}
+
+{% bas %}
+
+#### Uppgift 1
+
+Vad menas med versionshantering?
+
+{% endbas %}
+
+{% enduppgifter %}
+

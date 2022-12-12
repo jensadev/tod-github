@@ -1,8 +1,8 @@
 ---
-title: Installera wsl
+title: GitHub Desktop
 eleventyNavigation:
-    key: installera wsl
+    key: github desktop
     parent: kom igång
-    order: 4
+    order: 3
     excerpt: asdf
 ---

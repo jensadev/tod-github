@@ -42,10 +42,10 @@ För att kunna använda GitHub behöver du ett konto. Du kan registrera ett kont
 ### Installera Git
 
 * [Git](https://git-scm.com/)
-
+<!-- 
 ### Installera GitHub Desktop
 
-* [GitHub Desktop](https://desktop.github.com/)
+* [GitHub Desktop](https://desktop.github.com/) -->
 
 ## Grunderna
 
@@ -64,7 +64,9 @@ Stegen här kan följas oavsett om du kör Git i bash (med eller utan WSL) eller
  Make sure your commit has been logged into your repository by using git log
 
 
- ### GitHub desktop
+# Desktop separat avsnitt ? Vill inte att de ska köra
+
+ <!-- ### GitHub desktop
 
 Skapa och initialisera ett repository med GitHub desktop.
 
@@ -87,4 +89,4 @@ I dialogrutan som kommer upp så kan du välja att publicera ditt repository til
 
 {% image "github-desktop-publish-repo.png", "GitHub desktop - Publish repository" %}
 
-När repositoryt är publicerat så syns det på GitHub och du kan välja att öppna det i din webbläsare genom att klicka på View on GitHub.
+När repositoryt är publicerat så syns det på GitHub och du kan välja att öppna det i din webbläsare genom att klicka på View on GitHub. -->
