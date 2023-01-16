@@ -7,7 +7,7 @@ eleventyNavigation:
     key: kom igång
     parent: introduktion
     order: 2
-    excerpt: asdf
+    excerpt: I det här området får du installera och registrera dig så att du kan komma igång med att använda Git.
 ---
 
 

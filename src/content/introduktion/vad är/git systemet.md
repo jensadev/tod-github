@@ -1,10 +1,10 @@
 ---
-title: Git
+title: Git systemet
 eleventyNavigation:
-    key: git
+    key: git systemet
     parent: vad är
     order: 1
-    excerpt: asdf
+    excerpt: Git är ett system för versionshantering.
 ---
 
 {% intro %}

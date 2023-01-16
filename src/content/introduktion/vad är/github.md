@@ -4,7 +4,7 @@ eleventyNavigation:
     key: github
     parent: vad är
     order: 2
-    excerpt: asdf
+    excerpt: GitHub är ett webbaserat verktyg som använder Git för att sammarbeta kring kod.
 ---
 
 {% intro %}

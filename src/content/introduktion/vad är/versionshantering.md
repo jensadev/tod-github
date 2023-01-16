@@ -4,7 +4,7 @@ eleventyNavigation:
     key: versionshantering
     parent: vad är
     order: 0
-    excerpt: asdf
+    excerpt: Versionshantering är ett sätt att spara och hantera ändringar i filer.
 ---
 
 {% intro %}

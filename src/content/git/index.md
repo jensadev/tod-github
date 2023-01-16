@@ -9,3 +9,8 @@ eleventyNavigation:
     excerpt: asdf
 ---
 
+{% lead %}
+
+{% endlead %}
+
+Detta är en introduktion till versionshantering för lärare, där Git och GitHub är verktygen du använder.
