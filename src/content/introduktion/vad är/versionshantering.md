@@ -21,7 +21,7 @@ eleventyNavigation:
 
 {% instruktioner %}
 
-Du har förmodligen använt en versionshantering på ett eller annat sätt tidigare. Backups på mappar, en kopia av en fil, flera sätt?
+Du har förmodligen använt en versionshantering på ett eller annat sätt tidigare. Kopior av en fil eller mappar, backups, att spara det du arbetar med så att du kan återställa det om något går fel.
 
 Du kan tänka på versionshantering som en tidslinje för filer. Du kan se vad när en fil har skapats eller tagits bort, vem som har gjort ändringar och vad som har ändrats. Du kan gå fram och tillbaka i tidslinjen och se hur filen såg ut vid olika tidpunkter.
 

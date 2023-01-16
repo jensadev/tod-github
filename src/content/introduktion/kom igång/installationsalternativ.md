@@ -4,7 +4,7 @@ eleventyNavigation:
     key: installationsalternativ
     parent: kom igång
     order: 1
-    excerpt: asdf
+    excerpt: Det finns ett antal Git klienter att välja mellan.
 ---
 
 {% intro %}
@@ -25,6 +25,6 @@ Det finns tre vanliga alternativ:
 * [Installera GitHub Desktop](/introduktion/kom-igang/github-desktop/)
 * [Installera WSL](/introduktion/kom-igang/wsl/) och en Linux distribution tillsammans med Git
 
-Den här introduktion kommer att använda [Git](https://git-scm.com/downloads)
+Den här introduktion kommer att använda [Git](/introduktion/kom-igang/git/) eftersom det fungerar oavsett operativsystem och Git behövs för att hantera inloggningen när du sedan använder Git tillsammans med till exempel [Visual Studio Code](https://code.visualstudio.com/).
 
 {% endinstruktioner %}
