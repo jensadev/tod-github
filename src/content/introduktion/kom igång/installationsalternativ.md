@@ -4,7 +4,7 @@ eleventyNavigation:
     key: installationsalternativ
     parent: kom igång
     order: 1
-    excerpt: Det finns några olika sätt att köra en Git klient.
+    excerpt: Det finns ett antal Git klienter att välja mellan.
 ---
 
 {% intro %}
@@ -23,7 +23,7 @@ Det går att köra GitHub och Git på andra sätt, till exempel med [GitHub code
 
 För att lära dig och förstå hur Git fungerar och samspelar med GitHub så är det en stor fördel att kunna köra Git i en terminal.
 
-{% endinstruktioner %}
+Den här introduktion kommer att använda [Git](/introduktion/kom-igang/git/) eftersom det fungerar oavsett operativsystem och Git behövs för att hantera inloggningen när du sedan använder Git tillsammans med till exempel [Visual Studio Code](https://code.visualstudio.com/).
 
 {% uppgifter %}
 
