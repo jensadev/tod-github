@@ -1,11 +1,12 @@
 ---
-title: Introduktion
+title: Hur
 layout: 'layouts/theme-area.njk'
 category: tema
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
-    key: introduktion
+    key: hur
     parent: git och github
-    order: 0
-    excerpt: Vad behöver du veta för att komma igång och använd Git och GitHub.
+    order: 1
+    excerpt: asdf
 ---
+

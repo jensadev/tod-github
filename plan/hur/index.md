@@ -1,16 +1,12 @@
 ---
-title: Git
+title: Hur
 layout: 'layouts/theme-area.njk'
 category: tema
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
-    key: git
+    key: hur
+    parent: git och github
     order: 1
     excerpt: asdf
 ---
 
-{% lead %}
-
-{% endlead %}
-
-Detta är en introduktion till versionshantering för lärare, där Git och GitHub är verktygen du använder.

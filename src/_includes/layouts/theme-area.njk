@@ -4,13 +4,11 @@ layout: layouts/base.njk
 <main class="container flow" tabindex="-1" role="main" id="main-content">
     <header class="hero">
         {% if category === "tema" %}
-        <h1>Tema: {{ title }}</h1>
+        <h1>Tema {{ title }}</h1>
         {% endif %}
         {% if category === "område" %}
-        <h1>Område: {{ title }}</h1>
+        <h1>Område {{ title }}</h1>
         {% endif %}
-
-        {{ content | safe }}
     </header>
 
     {% set currentPage = page.fileSlug %}

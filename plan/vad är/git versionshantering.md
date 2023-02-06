@@ -1,7 +1,7 @@
 ---
-title: Git systemet
+title: Git versionshantering
 eleventyNavigation:
-    key: git systemet
+    key: git versionshantering
     parent: vad är
     order: 1
     excerpt: Git är ett system för versionshantering.

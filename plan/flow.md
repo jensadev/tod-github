@@ -1,0 +1,58 @@
+- Introduktion
+    - Vad är
+        - Versionshantering
+        - Git
+        - GitHub
+    - Kom igång
+        - Installera Git
+        - Konfigurera Git
+        - Skapa ett konto på GitHub
+- Hur
+    - Git
+        - Skapa ett repository
+        - Lägg till filer
+        - Commit
+        - Push
+        - Pull
+        - Konflikter
+    - GitHub
+        - Skapa ett repository
+        - Lägg till filer
+        - Commit
+        - Push
+        - Pull
+        - Konflikter
+    - Avancerat
+        - Branch
+        - Merge
+        - Fork
+        - Pull request
+        - Issues
+        - Pages
+
+- Varför
+    - Pedagogiskt
+        - Progression
+        - Feedback
+        - Samarbete
+        - Delning
+    - Arbetsliv
+        - Versionshantering
+        - Samarbete
+        - Delning
+        - Feedback
+        - Dokumentation
+        - Historik
+        - Kvalitet
+        - Säkerhet
+        - Övrigt
+    - Övrigt
+        - Versionshantering
+        - Samarbete
+        - Delning
+        - Feedback
+        - Dokumentation
+        - Historik
+        - Kvalitet
+        - Säkerhet
+        - Övrigt
