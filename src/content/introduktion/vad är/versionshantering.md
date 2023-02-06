@@ -27,7 +27,7 @@ Du kan tänka på versionshantering som en tidslinje för filer. Du kan se vad n
 
 Versionshantering låter dig även skapa grenar från tidslinjen. Du kan bryta dig ur en gren och fortsätta arbeta på en annan gren. Du kan sedan slå ihop de två grenarna igen.
 
-Att arbetat i ett versionshanteringssystem brukar kallas för att en arbetar med ett arbetsflöde.
+Att arbetat i ett versionshanteringssystem brukar kallas för att en arbetar med ett arbetsflöde (workflow).
 
 {% endinstruktioner %}
 

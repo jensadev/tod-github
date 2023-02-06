@@ -1,7 +1,7 @@
 ---
-title: Registrera konto
+title: GitHub konto
 eleventyNavigation:
-    key: registrera konto
+    key: github konto
     parent: kom igång
     order: 0
     excerpt: För att använda GitHub behöver du registrera ett konto.

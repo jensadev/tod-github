@@ -1,7 +1,5 @@
 <nav aria-label="breadcrumb">
-    {{ currentPage | log }}
     {% set navPages = collections.all | eleventyNavigationBreadcrumb(currentPage, {includeSelf: true}) %}
-    {{ navPages | log }}
     <ol class="breadcrumb">
         {% for entry in navPages %}
             <li {% if entry.url == page.url %} class="breadcrumb__item breadcrumb__item--active" aria-current="page" {% else %} class="breadcrumb__item" {% endif %}>
