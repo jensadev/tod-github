@@ -8,6 +8,12 @@
         - Konfigurera Git
         - Skapa ett konto på GitHub
 - Hur
+    -Arbetsflöde
+        - Lägg till filer
+        - Commit
+        - Push
+        - Pull
+        - Konflikter
     - Git
         - Skapa ett repository
         - Lägg till filer
@@ -29,7 +35,6 @@
         - Pull request
         - Issues
         - Pages
-
 - Varför
     - Pedagogiskt
         - Progression
