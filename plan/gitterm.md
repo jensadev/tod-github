@@ -62,7 +62,12 @@ För att ange och redigera identiten så kan du köra
 git config --global --edit
 ```
 
-Detta öppnar redigeringsprogrammet i bash och du kan redigera filen. Problemet är att detta redigersprogrammet är vim och det är inte så lätt att använda.
+Detta öppnar redigeringsprogrammet i bash och du kan redigera filen. Problemet är att detta redigeringsprogrammet är vim och det är inte så lätt att använda.
+
+Om du vill använda vim.
+Så behöver du först aktivera insert mode med `i` och sedan skriva in dina värden.
+
+För att sedan spara och stänga filen trycker du `ESC` och sedan `:wq` eller `:x`. Om du vill avsluta utan att spara trycker du `ESC` och sedan `:q!`.
 
 Så för att ändra till nano
 
