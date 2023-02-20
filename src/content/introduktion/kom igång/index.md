@@ -7,7 +7,5 @@ eleventyNavigation:
     key: kom igång
     parent: introduktion
     order: 2
-    excerpt: I det här området får du installera och registrera dig så att du kan komma igång med att använda Git.
+    excerpt: Det här området hjälper dig att registrera konton och installera programvara så att du kan börja arbeta med versionshantering.
 ---
-
-

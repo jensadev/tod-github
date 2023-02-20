@@ -9,13 +9,16 @@ eleventyNavigation:
 
 {% intro %}
 
-GitHub är ett webbaserat verktyg för att samarbeta kring kod. Det är ett verktyg för att dela kod och samarbeta kring den. Det är också ett verktyg för att spåra ändringar i koden och för att kunna återställa tidigare versioner av koden.
+GitHub är ett webbaserat verktyg för att samarbeta kring kod. Det är i grunden ett webbhotell för Git-repositories som låter dig och andra arbeta tillsammans på ett projekt.
 
-GitHub använder Git.
+GitHub är ett populärt verktyg för att samarbeta kring både öppen och privat kod. Det kan vara inom ett företag eller i andra projekt. GitHub har också blivit ett populärt verktyg för att dela kod och för att kunna hitta kod som andra har skrivit.
 
 {% endintro %}
 
-{% instruktioner %}
+{% instruktioner "Om GitHub" %}
 
+GitHub använder Git och Git-repositories. Lokala Git-repositories knyts till en remote som ligger på GitHub för att synka koden med Git. Så GitHub kör du inte på din dator, utan det är en molntjänst du använder.
+
+Det finns en [GitHub-desktop klient](https://desktop.github.com/) som bygger på Git och det går även att använda GitHub direkt i webbläsaren (när du är inloggad).
 
 {% endinstruktioner %}

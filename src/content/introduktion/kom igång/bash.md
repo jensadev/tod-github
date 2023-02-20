@@ -17,34 +17,34 @@ För att köra den här kursen och använda dig av Git så underlättar det om d
 
 {% instruktioner %}
 
-Det här avsnittet förutsätter att du har tillgång till Bash eller liknande. Har du följt instruktionerna, [Installera Git](introduktion/kom-igang/installera-git/), så har du sannolikt installerat Git-Bash.
-
-Så för att testa det här behöver du starta Git-Bash.
-När du startar Git-Bash så kommer du se en prompt som ser ut ungefär så här:
+Starta Git Bash eller ett annat terminalprogram.
+När du startar Git Bash så kommer du se en prompt som ser ut ungefär så här:
 
 {% image "gitbashmingw.png", "Git Bash" %}
 
-Nu kan du prova att navigera i filsystemet. För att göra det så behöver du använda kommandot `cd` (change directory). För att navigera till din hemkatalog så skriver du:
+Nu kan du navigera i filsystemet. För att göra det så behöver du använda kommandot `cd` (change directory) följt av vilken katalog du vill byta till. För att navigera till din hemkatalog så skriver du:
 
 ```bash
 cd ~
 ```
 
-Prova att skapa en katalog med namnet `test`, kommandot för att skapa en katalog är `mkdir` (make directory).
+Skapa en katalog med namnet `test`, kommandot för att skapa en katalog är `mkdir` (make directory) följt av namnet på katalogen.
 
 ```bash
 mkdir test
 ```
 
-Prova att navigera till den nya katalogen med `cd`. För att se vilka filer och kataloger som finns i den katalogen så kan du använda kommandot `ls` (list).
+För att byta från din nuvarande katalog till katalogen test som du skapade behöver du använda `cd test`. För att se vilka filer och kataloger som finns i den katalog du befinner dig i så kan du använda kommandot `ls` (list).
 
-Kontrolla att du är i mappen test genom att skriva `pwd` (print working directory). Nu kan du skapa en fil med namnet `test.txt` med kommandot `touch`.
+Kontrolla att du är i mappen test genom att skriva `pwd` (print working directory). Programmet skriver då ut den fullständiga sökvägen till den katalog du befinner dig i.
+
+Skapa sedan en fil med namnet `test.txt`, för att göra det använd dig av kommandot `touch`. `touch` skapar en tom fil.
 
 ```bash
 touch test.txt
 ```
 
-Om du har följt instruktionerna har du en katalog som heter `test` med en fil som heter `test.txt` i den katalogen.
+Om du har följt instruktionerna har du nu en katalog som heter `test` med en fil som heter `test.txt` i den katalogen. Kontrollera detta med `ls`.
 
 {% image "cmds.png", "Exempelkommandon i bash" %}
 

@@ -2,7 +2,7 @@
 title: Commit
 eleventyNavigation:
     key: commit
-    parent: vad är
+    parent: 'arbetsflöde och begrepp'
     order: 4
     excerpt: Commit är en del av Git som sparar ändringar i en fil.
 ---

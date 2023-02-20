@@ -4,10 +4,8 @@ layout: 'layouts/theme-area.njk'
 category: område
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
-    key: arbetsflöde och begrepp
+    key: 'arbetsflöde och begrepp'
     parent: hur
     order: 0
-    excerpt: Arbetsflöde är 
+    excerpt: Arbetsflöde är
 ---
-
-

@@ -7,7 +7,5 @@ eleventyNavigation:
     key: vad är
     parent: introduktion
     order: 0
-    excerpt: Det här området finns för att förklara några av de begrepp och program som du kommer att använda.
+    excerpt: Det här området förklara vad versionshantering är och vilka verktyg du behöver för att arbeta med det.
 ---
-
-
