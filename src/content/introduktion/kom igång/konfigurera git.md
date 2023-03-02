@@ -33,6 +33,8 @@ Om du vill redigera din konfiguration så kan du använda följande kommando, de
 {% hint %}
 Om du inte har valt redigeringsprogram så använder Git Vim som redigeringsprogram. Vim är notoriskt svårt att använda.
 
+För att redigera filen i Vim så behöver du följa dessa steg:
+
 1. Tryck på `i` för att gå in i redigeringsläge.
 2. Ändra dina uppgifter.
 3. Tryck på `esc` för att gå ur redigeringsläge.

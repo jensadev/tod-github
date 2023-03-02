@@ -57,13 +57,3 @@ rm -r test
 ```
 
 {% endinstruktioner %}
-
-{% uppgifter %}
-
-{% bas %}
-
-#### Uppgift 1
-
-{% endbas %}
-
-{% enduppgifter %}

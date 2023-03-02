@@ -16,7 +16,15 @@ Git är ett versionshanteringssystem som används för att spara och hantera än
 
 {% endintro %}
 
-{% instruktioner "Mer läsning" %}
+{% instruktioner %}
+
+När du använder Git så behöver du köra vissa kommandon för att spara filernas ändringar, så kallade commits. När du gör en commit så sparar Git en snapshot av filerna i ditt repository, deras nuvarande tillstånd.
+
+Så för att använda illustrationen från föregående förklaring så får varje steg nu en commit. Varje commit innehåller nu en komplett historik över dina filer.
+
+{% image "commits.svg", "Illustration av versionshantering" %}
+
+### Mer läsning
 
 [Git](https://git-scm.com/) skapades av [Linus Torvalds](https://sv.wikipedia.org/wiki/Linus_Torvalds), skaparen av [Linux](<https://sv.wikipedia.org/wiki/Linux_(k%C3%A4rna)>), för att hantera källkoden till Linux.
 

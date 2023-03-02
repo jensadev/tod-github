@@ -21,4 +21,8 @@ GitHub använder Git och Git-repositories. Lokala Git-repositories knyts till en
 
 Det finns en [GitHub-desktop klient](https://desktop.github.com/) som bygger på Git och det går även att använda GitHub direkt i webbläsaren (när du är inloggad).
 
+### Microsoft
+
+GitHub köptes upp av Microsoft 2018. Microsoft har sedan dess fortsatt att utveckla GitHub och har dedikerat stora resurser till att främja öppen källkod och att göra GitHub till ett bättre verktyg för att samarbeta kring kod.
+
 {% endinstruktioner %}

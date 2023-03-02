@@ -10,17 +10,3 @@ eleventyNavigation:
 {% intro %}
 
 {% endintro %}
-
-{% instruktioner %}
-
-{% endinstruktioner %}
-
-{% uppgifter %}
-
-{% bas %}
-
-#### Uppgift 1
-
-{% endbas %}
-
-{% enduppgifter %}

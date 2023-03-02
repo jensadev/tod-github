@@ -9,18 +9,6 @@ eleventyNavigation:
 
 {% intro %}
 
+Commits är centralt när du arbetar med Git, en commit är den del i arbetsflödet som sparar ändringar i en fil.
+
 {% endintro %}
-
-{% instruktioner %}
-
-{% endinstruktioner %}
-
-{% uppgifter %}
-
-{% bas %}
-
-#### Uppgift 1
-
-{% endbas %}
-
-{% enduppgifter %}
