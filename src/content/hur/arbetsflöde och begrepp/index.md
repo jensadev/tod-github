@@ -1,5 +1,5 @@
 ---
-title: arbetsflöde och begrepp
+title: Arbetsflöde och begrepp
 layout: 'layouts/theme-area.njk'
 category: område
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
