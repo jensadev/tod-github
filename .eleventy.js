@@ -52,9 +52,6 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addWatchTarget('./src/sass/');
     eleventyConfig.addWatchTarget('./src/js/');
 
-    eleventyConfig.addPassthroughCopy({
-        'src/assets/robots.txt': 'robots.txt',
-    });
     eleventyConfig.addPassthroughCopy('./src/assets/fonts');
     eleventyConfig.addPassthroughCopy({
         './src/assets/favicon.ico': '/favicon.ico',
@@ -71,10 +68,24 @@ module.exports = (eleventyConfig) => {
         );
     });
 
+    const filtered = [
+        '',
+        'hjälp',
+        'tack',
+        '404',
+        'frågor',
+        'offline',
+        'questions',
+        'översikt',
+        'hjalp',
+    ];
     // filter filtered [pages] from navPages
     eleventyConfig.addFilter('filterNavPages', (value) => {
-        const filtered = ['hjälp', 'tack'];
         return value.filter((item) => !filtered.includes(item.key));
+    });
+
+    eleventyConfig.addFilter('filterPages', (value) => {
+        return filtered.includes(value);
     });
 
     // Shortcodes
