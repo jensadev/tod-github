@@ -7,7 +7,5 @@ eleventyNavigation:
     key: git
     parent: hur
     order: 0
-    excerpt: Det här området finns för att förklara några av de begrepp och program som du kommer att använda.
+    excerpt: Det här området innehåller en grundläggande introduktion till hur du arbetar med Git.
 ---
-
-

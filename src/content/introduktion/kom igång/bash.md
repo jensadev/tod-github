@@ -7,7 +7,7 @@ eleventyNavigation:
     excerpt: Bash är en kommandotolk till Linux.
 ---
 
-{% intro %}
+{%- intro %}
 
 Bash är en kommandotolk till Linux. Det är en textbaserad gränssnitt som används för att kommunicera med datorn. Bash är en av de vanligaste kommandotolken för Linux.
 
@@ -15,7 +15,7 @@ För att köra den här kursen och använda dig av Git så underlättar det om d
 
 {% endintro %}
 
-{% instruktioner %}
+{%- instruktioner %}
 
 Starta Git Bash eller ett annat terminalprogram.
 När du startar Git Bash så kommer du se en prompt som ser ut ungefär så här:
