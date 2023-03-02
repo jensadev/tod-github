@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        font-family: Arial-BoldMT, Arial;
+        font-family: "Roboto Condensed", Arial-BoldMT, Arial;
         font-size: 14px;
         font-weight: 700;
       }

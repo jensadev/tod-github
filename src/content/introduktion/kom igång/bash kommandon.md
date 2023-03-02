@@ -7,27 +7,31 @@ eleventyNavigation:
     excerpt: Här hittar du några vanliga bash kommandon.
 ---
 
-{% intro %}
+{%- intro %}
 
 Den här sidan försöker inte vara någon utförlig guide till Bash, men det kan vara bra att känna till lite fler kommandon. Det så att du kan navigera, skapa och ta bort filer och kataloger.
 
 {% endintro %}
 
-{% instruktioner %}
+{%- instruktioner %}
 
 Här nedan hittar du ett antal kommandon för att navigera och manipulera filer.
 
-| Kommando         | Beskrivning                                                                                                                     |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `ls`             | Listar innehållet i en katalog, `-la` för att se allt                                                                           |
-| `cd KATALOG`     | Går till en annan katalog, enbart `cd` tar dig till `/home/DINUSER`                                                             |
-| `mkdir KATALOG`  | Skapar en ny katalog                                                                                                            |
-| `touch FIL`      | Skapar en fil                                                                                                                   |
-| `rm FIL/KATALOG` | Tar bort en fil, ska du ta bort en katalog lägg till `-r`, recursive. Innehåller katalogen filer kan du behöva `-rf` för force. |
-| `cp FIL DEST`    | Kopierar en fil till angiven destination                                                                                        |
-| `mv FIL DEST`    | Flyttar en fil till angiven destination                                                                                         |
-| `cat FIL`        | Läser en fil och skriver ut den i terminalen                                                                                    |
-| `history`        | Listar din kommando-historik, du kan seadan köra kommandot från historiken med `!nummer`                                        |
+{%hint %}
+Kom ihåg att du nästan alltid kan köra ett kommandon med `--help` för att få mer information om det.
+{% endhint %}
+
+| Kommando                       | Beskrivning                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| `ls`                           | Listar innehållet i en katalog, `-la` för att se allt                                                                           |
+| `cd <katalog>`                 | Går till en annan katalog, enbart `cd` tar dig till `/home/<user>`                                                              |
+| `mkdir <katalog>`              | Skapar en ny katalog                                                                                                            |
+| `touch <filnamn>`              | Skapar en fil                                                                                                                   |
+| `rm <filnamn>`, `rm <katalog>` | Tar bort en fil, ska du ta bort en katalog lägg till `-r`, recursive. Innehåller katalogen filer kan du behöva `-rf` för force. |
+| `cp <filnamn> <destination>`   | Kopierar en fil till angiven destination                                                                                        |
+| `mv <filnamn> <destination>`   | Flyttar en fil till angiven destination                                                                                         |
+| `cat <filnamn>`                | Läser en fil och skriver ut den i terminalen                                                                                    |
+| `history`                      | Listar din kommando-historik, du kan seadan köra kommandot från historiken med `!nummer`                                        |
 
 ### Navigera i filsystemet
 
@@ -38,7 +42,7 @@ Så för att referera till nuvarande katalog så använder du dig av `.`. Det ä
 Så för att kopiera en fil från mappen `test` till den nuvarande katalogen så skriver du:
 
 ```bash
-cp test/FIL .
+cp test/<filnamn> .
 ```
 
 ### Redigera textfiler
@@ -46,19 +50,19 @@ cp test/FIL .
 För att redigera textfiler så kan du använda dig av kommandot `nano`. Det är ett enkelt textredigeringsprogram som är enkelt att använda.
 
 ```bash
-nano FIL
+nano <filnamn>
 ```
 
 ### Superuser
 
 Vissa kommandon i Linux kräver att du kör dem med superuser-rättigheter. Det gör du genom att skriva `sudo` följt av kommandot du vill köra. Det kommer att be dig om ditt lösenord och sedan köra kommandot.
 
-{% hint %}
+{%- hint -%}
 Var försiktig med att köra kommandon med `sudo`, det kan leda till att du skadar din dator.
 {% endhint %}
 
 ```bash
-sudo KOMMANDO
+sudo <kommando>
 ```
 
 {% endinstruktioner %}

@@ -7,7 +7,7 @@ eleventyNavigation:
     excerpt: add
 ---
 
-{% intro %}
+{%- intro %}
 
 Add är en del av Git som lägger till filer i ett repository.
 

@@ -7,7 +7,7 @@ eleventyNavigation:
     excerpt: För att använda Git så behöver du en lämpligt klient.
 ---
 
-{% intro %}
+{%- intro %}
 
 Git är ett gratis och open source system för versionshantering. För att använda Git så behöver du installera en klient på din dator.
 
@@ -15,7 +15,7 @@ Git är släppt under [GPLv2](https://opensource.org/licenses/GPL-2.0)
 
 {% endintro %}
 
-{% instruktioner %}
+{%- instruktioner %}
 
 {% image "Git-Logo-2Color.png", "Git Logo" %}{".float-right w-50"}
 
@@ -43,7 +43,7 @@ Om du inte väljer detta så ställer installationsprogrammet ett stort antal fr
 
 Låt installationsprogrammet arbeta färdigt. Du kan sedan välja att starta Git-bash.
 
-{% hint %}
+{%- hint -%}
 Bash är ett skalprogram/kommandotolk som är vanlig i Unix/Linux miljö. Det är den terminal du kommer använda för att utforska Git.
 {% endhint %}
 

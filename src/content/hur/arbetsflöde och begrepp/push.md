@@ -7,6 +7,8 @@ eleventyNavigation:
     excerpt: Push synkar dina lokala ändringar till GitHub.
 ---
 
-{% intro %}
+{%- intro %}
+
+Intro
 
 {% endintro %}

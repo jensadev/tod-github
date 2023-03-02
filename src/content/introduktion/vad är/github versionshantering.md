@@ -1,13 +1,13 @@
 ---
-title: Github
+title: GitHub versionshantering
 eleventyNavigation:
-    key: github
+    key: github versionshantering
     parent: vad är
     order: 2
     excerpt: GitHub är ett webbaserat verktyg som använder Git för att sammarbeta kring kod.
 ---
 
-{% intro %}
+{%- intro %}
 
 GitHub är ett webbaserat verktyg för att samarbeta kring kod. Det är i grunden ett webbhotell för Git-repositories som låter dig och andra arbeta tillsammans på ett projekt.
 

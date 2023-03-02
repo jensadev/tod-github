@@ -7,7 +7,7 @@ eleventyNavigation:
     excerpt: Versionshantering är ett sätt att spara och hantera ändringar i filer.
 ---
 
-{% intro %}
+{%- intro %}
 
 [Versionshantering](https://sv.wikipedia.org/wiki/Versionshantering) är ett sätt att spara och hantera ändringar i filer. Det är ett sätt att spara historiken för filer och för att kunna återställa tidigare versioner av filerna, eller kunna se vad som ändrats i en fil och av vem.
 

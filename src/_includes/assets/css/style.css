@@ -336,7 +336,7 @@ a[href].header-anchor:focus:visited {
 
 .breadcrumb {
   display: flex;
-  padding: var(--step--2) 0;
+  padding: var(--step--4) 0;
   margin: 0;
   list-style: none;
   color: var(--color-on-primary);
@@ -345,6 +345,11 @@ a[href].header-anchor:focus:visited {
   .breadcrumb {
     font-size: var(--step-1);
   }
+}
+.breadcrumb__item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 @media (max-width: 640px) {
   .breadcrumb__item:nth-child(2) {

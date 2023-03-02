@@ -7,6 +7,8 @@ eleventyNavigation:
     excerpt: Pull synkar ändringar från GitHub till ditt lokala repository.
 ---
 
-{% intro %}
+{%- intro %}
+
+Pull är en del av Git som synkar ändringar från GitHub till ditt lokala repository.
 
 {% endintro %}

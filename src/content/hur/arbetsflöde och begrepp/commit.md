@@ -7,7 +7,7 @@ eleventyNavigation:
     excerpt: Commit är en del av Git som sparar ändringar i en fil.
 ---
 
-{% intro %}
+{%- intro %}
 
 Commits är centralt när du arbetar med Git, en commit är den del i arbetsflödet som sparar ändringar i en fil.
 
