@@ -35,7 +35,7 @@ Kom ihåg att du nästan alltid kan köra ett kommandon med `--help` för att f�
 
 ### Navigera i filsystemet
 
-För att navigera i filsystemet så kan du använda dig av kommandot `cd`. Detta kommando tar dig till en annan katalog. En viktig del att förstå i detta är att alla kataloger innehåller `.`, som representerar den katalogen du befinner dig i och `..`, vilket representerar den katalogen som ligger ovanför den du befinner dig i.
+För att navigera i filsystemet så kan du använda dig av kommandot `cd`. Detta kommando tar dig till en annan katalog. En viktig del att förstå i detta är att alla kataloger innehåller `.`, som representerar den katalogen du befinner dig i och `..`, vilket representerar den katalogen som ligger ovanför (parent) den du befinner dig i.
 
 Så för att referera till nuvarande katalog så använder du dig av `.`. Det är viktigt att känna till när du till exempel ska kopiera eller flytta filer.
 
