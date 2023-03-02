@@ -1,8 +1,8 @@
-@use "reset";
-@use "theme";
-@use "typography";
-@use "components";
-@use "utilities";
+@use 'reset';
+@use 'theme';
+@use 'typography';
+@use 'components';
+@use 'utilities';
 
 body {
     display: flex;
@@ -50,7 +50,7 @@ main {
     cursor: not-allowed;
 }
 
-li.test{
+li.test {
     font-weight: 700;
 }
 
@@ -59,9 +59,14 @@ li.test{
 }
 
 .float-right {
-  float: right;
+    float: right;
+    margin: var(--step--4);
 }
 
 .w-50 {
-  width: 50%;
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
 }
