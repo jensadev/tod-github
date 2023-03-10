@@ -11,6 +11,8 @@ eleventyNavigation:
 
 En av styrkorna med Git är att du får en historik över alla ändringar som gjorts i ditt projekt. Detta gör att du kan återgå till tidigare versioner av ditt projekt om du skulle behöva det.
 
+Historiken sparas i ditt repo i form av commits, där varje commit är en version av ditt projekt. Det är alltså inte bara filerna som sparas utan även en beskrivning av vad som ändrats i filerna.
+
 {% endintro %}
 
 {%- instruktioner %}
@@ -28,7 +30,7 @@ Prova att lägga till en eller flera filer samt ändra på befintliga filer. Nä
 Repetera kommandona och använd dem.
 
 -   Redigera textfilen med nano, `nano hello.txt`, lägg till en rad med text.
--   Lägg till en ny fil, `touch newfile.txt`
+-   Lägg till en ny fil, `touch newfile.txt`.
 
 Lägg till filerna i **staging area** genom att skriva `git add <filnamn>`. Du kan lägga till flera filer genom att skriva `git add <filnamn1> <filnamn2>`.
 

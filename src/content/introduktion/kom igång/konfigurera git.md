@@ -24,15 +24,10 @@ För att konfigurera användainformationen i Git så behöver du starta **Git Ba
 
 Använd samma uppgifter som du använde när du registrerade ditt konto på GitHub.
 
-Om du vill redigera din konfiguration så kan du använda följande kommando, det öppnar en textfil i din textredigerare där du kan ändra dina uppgifter.
+Du kan även redigera uppgifterna med en textredigerare.
 
-```bash
-  git config --global --edit
-```
-
-{%- hint -%}
+{%- hint "warning" -%}
 Om du inte har valt redigeringsprogram så använder Git Vim som redigeringsprogram. Vim är notoriskt svårt att använda.
-{% endhint %}
 
 För att redigera filen i Vim så behöver du följa dessa steg:
 
@@ -42,5 +37,13 @@ För att redigera filen i Vim så behöver du följa dessa steg:
 4. Tryck `:x` för att spara och avsluta.
 
 Behöver du avbryta utan att spara så trycker du `:q!` istället.
+
+{%- endhint %}
+
+Kommandot för det är:
+
+```bash
+git config --global --edit
+```
 
 {% endinstruktioner %}
