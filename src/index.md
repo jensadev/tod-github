@@ -8,7 +8,5 @@ eleventyNavigation:
 ---
 
 {% lead %}
-Många lärare vill använda Git och GitHub i sin undervisning, men de är osäkra på hur. Hur kommer jag igång, hur använder jag det och hur kan jag använda det i undervisningen? Gemensamt är att vi vill känna att vi behärskar det vi ska använda i klassrummet.
+Detta är en introduktion till versionshantering där Git och GitHub är verktygen du använder. Introduktionen riktar sig till den som inte tidigare använt Git eller GitHub.
 {% endlead %}
-
-Detta är en introduktion till versionshantering för lärare, där Git och GitHub är verktygen du använder. Med det sagt så fungerar introduktionen till Git på den här sidan för alla som vill lära sig mer om Git och GitHub.
