@@ -1192,3 +1192,22 @@ li.test {
 .w-30 {
   width: 30%;
 }
+
+code:not([class]) {
+  background-color: var(--color-gray-300);
+  padding-inline: 0.2em;
+}
+
+.hint {
+  background-color: var(--color-gray-300);
+  padding: var(--step--3);
+  border-left: 6px solid var(--color-primary);
+}
+
+.warning {
+  border-color: orange;
+}
+
+.danger {
+  border-color: red;
+}
