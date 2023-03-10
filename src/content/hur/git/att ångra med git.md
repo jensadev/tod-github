@@ -22,15 +22,15 @@ Att ångra ändringar i ditt projekt är något som kommer att hända förr elle
 
 Fortsätt att arbeta på det repo du skapade i föregående moment.
 
-### Du glömde något i din senaste commit
+### Om du glömde något i din senaste commit
 
 Öppna filen `hello.txt` och lägg till en rad med text, du glömde skriva den innan du gjorde din senaste commit. Lägg sedan till filen i **staging area** genom att skriva `git add hello.txt`.
 
 Du kan nu lägga till den i din senaste commit genom att skriva `git commit --amend`. Detta kommer att öppna din texteditor och låta dig redigera ditt senaste commit meddelande. Spara sedan filen och stäng texteditorn och Git kommer att uppdatera din senaste commit med den nya filen.
 
-{%- hint -%}
+{%- hint "warning" -%}
 Använd bara `git commit --amend` om du inte har pushat din senaste commit till en remote.
-{% endhint %}
+{%- endhint %}
 
 ### Ta bort ändringar från staging area
 
@@ -40,6 +40,6 @@ Om du nu kör `git status` så kommer du att se att båda filerna är i **stagin
 
 Du kan ångra ändringar med `git restore --staged <filnamn>`. Detta kommer att ta bort filen från **staging area**. Git visar det genom att skriva ut att följande ändringar inte är `staged for commit`.
 
-Det går även att återställa filen till den senaste committade versionen genom att skriva `git restore <filnamn>`.
+Det går även att återställa filen till den senaste versionen genom att skriva `git restore <filnamn>`.
 
 {% endinstruktioner %}

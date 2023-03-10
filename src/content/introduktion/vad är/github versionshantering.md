@@ -17,7 +17,7 @@ GitHub är ett populärt verktyg för att samarbeta kring både öppen och priva
 
 {% instruktioner "Om GitHub" %}
 
-GitHub använder Git och Git-repositories. Lokala Git-repositories knyts till en remote som ligger på GitHub för att synka koden med Git. Så GitHub kör du inte på din dator, utan det är en molntjänst du använder.
+GitHub använder Git och Git-repos. Lokala Git-repos knyts till en remote som ligger på GitHub för att synka koden med Git. Så GitHub kör du inte på din dator, utan det är en molntjänst du använder.
 
 Det finns en [GitHub-desktop klient](https://desktop.github.com/) som bygger på Git och det går även att använda GitHub direkt i webbläsaren (när du är inloggad).
 

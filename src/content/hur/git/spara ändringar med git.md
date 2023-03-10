@@ -9,6 +9,8 @@ eleventyNavigation:
 
 {%- intro %}
 
+*[repo]: Repository
+
 I introduktionen till [Git](/introduktion/vad-ar/git-versionshantering/) så kunde du läsa om att Git arbetar med tre tillstånd för filerna i ett repo. Det är viktigt att förstå detta när du arbetar med Git. De tre tillstånden är:
 
 1. **Modified**, filen är ändrad men inte sparad i Git-historiken.
@@ -30,7 +32,7 @@ Om du har följt instruktionerna från föregående moment så har du nu ett Git
 
 Börja med att kontrollera att du är i rätt katalog. Detta gör du genom att skriva `pwd` i terminalen. Detta kommer att skriva ut den katalog du befinner dig i. Om du inte är i rätt katalog så kan du använda `cd` för att navigera till rätt katalog.
 
-Du kan nu kontrollera statusen för ditt repo genom att skriva `git status` i terminalen.
+Du kan nu kontrollera statusen för repot genom att skriva `git status` i terminalen.
 
 ```bash
 On branch main
@@ -46,7 +48,7 @@ För att skapa en fil kommer du att använda kommandot `echo`. Kommandot `echo` 
 echo "Hello World" > hello.txt
 ```
 
-Kontrollera statusen för ditt repo genom att skriva `git status` i terminalen.
+Kontrollera repots status med `git status`.
 
 ```bash
 Untracked files:
@@ -65,7 +67,7 @@ För att lägga till filen i Git, det vill säga att göra den till en **tracked
 git add hello.txt
 ```
 
-Kontrollera sedan statusen för ditt repo genom att skriva `git status` i terminalen.
+Kontrollera sedan repots status.
 
 ```bash
 Changes to be committed:
@@ -79,9 +81,9 @@ Filen är nu tillagd i Git-repot och kommer att sparas i historiken. Filen är n
 
 Om du önskar ta bort filen för Git så kan du använda `git rm --cached <filnamn>`. Det gör att filen blir **untracked** igen. Detta är inte samma sak som att ta bort filen från din dator.
 
-{%- hint "varning" %}
+{%- hint "danger" -%}
 Om du använder `git rm` utan `--cached` så tar du bort filen från din dator.
-{% endhint %}
+{%- endhint %}
 
 ### Ändringar
 
@@ -116,14 +118,14 @@ En commit kan se ut så här:
 Du kan också skriva din commit direkt i terminalen.
 
 ```bash
-git commit -m "Meddelande"`.
+git commit -m "Meddelande"
 ```
 
 Detta är enklare och snabbare än att använda texteditorn.
 
-{%- hint -%}
+{%- hint "warning" -%}
 Det är väldigt vanligt att det blir stor förvirring när `git commit` körs och textredigeraren öppnar en fil, särskilt om detta program är Vim. Så för enkelhetens skull, använd `git commit -m "Meddelande"`.
-{% endhint %}
+{%- endhint %}
 
 {% endinstruktioner %}
 

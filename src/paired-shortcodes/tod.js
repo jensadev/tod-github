@@ -37,6 +37,8 @@ module.exports = {
         return `<p class="lead">${content}</p>`;
     },
     hint: (content, type) => {
-        return `<aside class="hint ${type ? type : ''}">${content}</aside>`;
+        return `<aside class="hint flow ${
+            type ? type : ''
+        }">${content}</aside>`;
     },
 };

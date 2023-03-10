@@ -9,32 +9,38 @@ eleventyNavigation:
 
 {%- intro %}
 
-Tidigare i materialet så klonade du ett repository som fanns på GitHub. Det var ett sätt att ladda ned koden. Men det gick då inte att göra några ändringar i koden eftersom du inte hade skrivbehörighet till det repot.
+*[url]: Uniform Resource Locator, en webbadress
 
-För att arbeta med kod från en annan användares repo så kan du göra en så kallad **fork** av det. En fork är en kopia av ett repository som du får skrivbehörighet till. Du kan sedan göra ändringar i din fork och om du önskar så kan du sedan skicka in en **pull request** till den ursprungliga användaren.
+Tidigare i materialet så klonade du ett repo från GitHub. Det var ett sätt att ladda ned koden. Men eftersom du saknade skrivbehörighet till repot så kunde du inte göra ändringar i det.
+
+För att arbeta med kod från en annan användares repo så kan du göra en så kallad **fork** av det. En fork är en kopia av ett repo som du får skrivbehörighet till. Du kan sedan göra ändringar i din fork. Du kan även skicka in en så kallad **pull request** till den ursprungliga användaren för att föreslå att dina ändringar ska läggas till i deras repo.
 {% endintro %}
 
 {%- instruktioner %}
 
-Surfa till [övningsrepot på GitHub](https://github.com/NTIG-Umea/tod-github-prac) och klicka på **Fork** i högra hörnet. Den kommer då att ta dig till en dialog för att skapa en fork.
+Surfa till [övningsrepot på GitHub](https://github.com/NTIG-Umea/tod-github-prac) och klicka på **Fork** i högra hörnet. Detta öppnar dialogen för att skapa en fork.
 
 {% image "fork.png", "Skapa en fork av ett repository" %}
 
-Fyll i formuläret och klicka på Create fork. GitHub kommer nu att göra en kopia av repot på ditt konto.
+Fyll i formuläret och klicka på **Create fork**. GitHub skapar då en kopia av repot på ditt konto.
 
 ### Klona din fork
 
-När GitHub har skapat din fork så kommer du att bli omdirigerad till din fork. Klicka på **Code** och kopiera urlen till repot. Öppna sedan terminalen och navigera till en katalog där du vill ha ditt repository. Skriv sedan in följande kommandon:
+När GitHub har skapat din fork så kommer du att bli omdirigerad till din fork. Klicka på **Code** för att kopiera repots url. Öppna terminalen och navigera till en katalog där du vill spara repot lokalt.
+
+Kommandot för att klona repot är:
 
 ```bash
 git clone <url>
 ```
 
-Git kommer att klona repot till din dator. Navigera in i katalogen och öppna filen `README.md` i din favorit texteditor. Ändra något i filen och spara den.
+Kommandot gör att Git laddar ned repot och alla filerna som hör till det. När det är klart så kommer du att se en ny katalog med samma namn som repot.
 
 ### Pusha dina ändringar
 
-När du har gjort ändringar i filen så kan du pusha dina ändringar till GitHub. För att göra det så skriver du följande kommandon:
+Byt katalog till repots katalog och öppna filen `README.md`. Gör några ändringar i filen och spara den.
+
+Nu ska du pusha dina ändringar till GitHub. Innan du pushar dina ändringar behöver du spara dem som en commit.
 
 ```bash
 git add README.md
@@ -42,20 +48,20 @@ git commit -m "Ändrade README.md"
 git push
 ```
 
-Git kommer nu att pusha dina ändringar till GitHub. Du kan nu öppna din fork på GitHub och se att filen har ändrats.
+Git laddar nu upp, pushar dina ändringar till GitHub. Du kan nu öppna din fork på GitHub och se att filen har ändrats.
 
 ### Pull request till det ursprungliga repot
 
-Om du vill att dina ändringar ska hamna i det ursprungliga repot så kan du skicka in en pull request. För att göra det så klickar du på **Pull requests** i menyn till vänster. Klicka sedan på **New pull request**.
+Om du vill att dina ändringar ska läggas till i det ursprungliga repot så kan du skicka in en pull request till ägaren av repot. För att skapa en pull request så klickar du på **Pull requests** i menyn till vänster. Klicka sedan på **New pull request**.
 
-Du får då upp en dialog där du kan se commits och vilka filer som ändrats. För att sedan skicka in en pull request så klickar du på **Create pull request**.
+Det tar dig till en dialog där du kan se dina commits och vilka filer som ändrats. För att skapa en pull request så klickar du på **Create pull request**.
 
 {% image "pullreq.png", "Skapa en pull request" %}
 
-Den användare som äger det ursprungliga repot kommer nu att få en notis om att du har skickat in en pull request. Den kommer att kunna se vilka ändringar du har gjort och kan välja att godkänna eller avvisa din pull request.
+Den användare som äger det ursprungliga repot kommer nu att få en notis om att du har skickat in en pull request. Hen kommer att kunna se vilka ändringar du har gjort och kan välja att godkänna eller avvisa dem.
 
 ### Synka din fork
 
-Om det ursprungliga repot har ändrats sedan du gjorde din fork så kan du synka din fork med det ursprungliga repot. På sidan för ditt repository så finns det en notis om att du kan synkronisera ditt repository med det ursprungliga repot. GitHub kommer då att guida dig genom processen, men om du har gjort ändringar i filerna så kommer du att få konflikter. Du behöver då manuellt lösa konflikterna och välja vilka ändringar som ska behållas.
+Om det ursprungliga repot har ändrats efter att du skapade din fork så kan du synka din fork med det ursprungliga repot. På sidan för ditt repository så finns det en notis om att du kan synkronisera detta. GitHub kommer då att guida dig genom processen, men om du har gjort ändringar i filerna så kommer du att få konflikter. Du behöver då manuellt lösa konflikterna och välja vilka ändringar som ska behållas.
 
 {% endinstruktioner %}

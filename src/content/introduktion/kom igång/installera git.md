@@ -21,9 +21,9 @@ Git är släppt under [GPLv2](https://opensource.org/licenses/GPL-2.0)
 
 Ladda ned Git-klienten för ditt operativsystem från [Git](https://git-scm.com/downloads).
 
-Med Git-klienten kommer Git-bash och Git-credential-manager. Båda är program du kommer behöva för den här introduktionsguiden och för att använda Git.
+Med Git-klienten kommer **Git-bash** och **Git-credential-manager**. Båda är program du kommer behöva för den här introduktionsguiden och för att använda Git.
 
-När nedladdningen är klar starta installationen. Du kan med fördel välja att använda standard-inställningarna, du kryssar då i rutan "Only show new options".
+När nedladdningen är klar starta installationen. Du kan med fördel välja att använda standard-inställningarna, du kryssar då i rutan **Only show new options**.
 
 {% image "scm only new.png", "Installationsval för Git-scm" %}
 
@@ -45,6 +45,6 @@ Låt installationsprogrammet arbeta färdigt. Du kan sedan välja att starta Git
 
 {%- hint -%}
 Bash är ett skalprogram/kommandotolk som är vanlig i Unix/Linux miljö. Det är den terminal du kommer använda för att utforska Git.
-{% endhint %}
+{%- endhint %}
 
 {% endinstruktioner %}

@@ -17,7 +17,7 @@ Den här sidan försöker inte vara någon utförlig guide till Bash, men det ka
 
 Här nedan hittar du ett antal kommandon för att navigera och manipulera filer.
 
-{%hint %}
+{%- hint -%}
 Kom ihåg att du nästan alltid kan köra ett kommandon med `--help` för att få mer information om det.
 {% endhint %}
 
@@ -57,9 +57,9 @@ nano <filnamn>
 
 Vissa kommandon i Linux kräver att du kör dem med superuser-rättigheter. Det gör du genom att skriva `sudo` följt av kommandot du vill köra. Det kommer att be dig om ditt lösenord och sedan köra kommandot.
 
-{%- hint -%}
+{%- hint "danger" -%}
 Var försiktig med att köra kommandon med `sudo`, det kan leda till att du skadar din dator.
-{% endhint %}
+{%- endhint %}
 
 ```bash
 sudo <kommando>

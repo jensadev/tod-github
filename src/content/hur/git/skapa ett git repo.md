@@ -9,7 +9,9 @@ eleventyNavigation:
 
 {%- intro %}
 
-Ett Git repo (repository) är en katalog som innehåller alla filer för ett projekt. Det är en katalog som du behöver skapa och initiera för att Git ska kunna spåra ändringar i filerna.
+*[repo]: Repository
+
+Ett Git repo  är en katalog som innehåller alla filer för ett projekt. Det är en katalog som du behöver skapa och initiera för att Git ska kunna spåra ändringar i filerna.
 
 {% endintro %}
 
@@ -22,7 +24,7 @@ mkdir <namn på katalog>
 cd <namn på katalog>
 ```
 
-Kommandot för att initera katalogen som ett Git repo är `git init`. Detta kommando skapar en `.git` katalog i den aktuella katalogen. Detta är den katalog som Git använder för att spåra ändringar i filerna i den aktuella katalogen.
+Kommandot för att initiera katalogen som ett Git repo är `git init`. Detta kommando skapar en `.git` katalog i den aktuella katalogen. Detta är den katalog som Git använder för att spåra ändringar i filerna för repot i den aktuella katalogen.
 
 ```bash
 git init
@@ -32,7 +34,7 @@ Filer och kataloger som börjar med `.` är dolda i Linux. Detta gäller även `
 
 {%- hint "varning" -%}
 Generellt sett bör du inte ändra i `.git` katalogen. Om du gör det kan du förstöra ditt Git repo och du förlorar då all historik och ändringar.
-{% endhint %}
+{%- endhint %}
 
 ### Klona
 
