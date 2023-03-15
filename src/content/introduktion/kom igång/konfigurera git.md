@@ -4,7 +4,7 @@ eleventyNavigation:
     key: konfigurera git
     parent: kom igång
     order: 2
-    excerpt: .
+    excerpt: Innan du kan använda Git så behöver du konfigurera ditt namn och din e-postadress.
 ---
 
 {%- intro %}

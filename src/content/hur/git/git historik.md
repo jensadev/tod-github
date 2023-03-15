@@ -4,7 +4,7 @@ eleventyNavigation:
     key: git historik
     parent: git
     order: 2
-    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
+    excerpt: Ett repo innehåller en historik över alla ändringar som gjorts i projektet.
 ---
 
 {%- intro %}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.5 99.82">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #333;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <line class="cls-4" x1="122" y1="18.49" x2="458.5" y2="18.49"/>
+    <line class="cls-4" y1="18.49" x2="110" y2="18.49"/>
+    <polygon points="476.5 18.49 470.2 24.79 468.1 22.69 470.65 19.99 442.5 19.99 442.5 16.99 470.65 16.99 468.1 14.29 470.2 12.19 476.5 18.49"/>
+    <g class="cls-2">
+      <text class="cls-1" transform="translate(.47 12.01)"><tspan x="0" y="0">Main</tspan></text>
+    </g>
+    <path class="cls-4" d="m147.2,55.49h280.03c2.21,0,4-1.79,4-4v-7"/>
+    <path class="cls-4" d="m116,24.99v26.5c0,2.21,1.79,4,4,4h15.5"/>
+    <polygon points="431.23 28.99 437.53 35.29 435.43 37.39 432.73 34.84 432.73 47.99 429.73 47.99 429.73 34.84 427.03 37.39 424.93 35.29 431.23 28.99"/>
+    <path class="cls-4" d="m180.66,92.49c-21.22,0-35.16,0-35.16,0-2.21,0-4-1.79-4-4v-27"/>
+    <path class="cls-4" d="m256.43,92.49c-22.73,0-44.93,0-63.43,0"/>
+    <path class="cls-4" d="m323,92.49c-17.18,0-36.21,0-55.24,0"/>
+    <path class="cls-4" d="m394,84.45c.03,3.06.44,8.11-4,8.04,0,0-23.05,0-55,0"/>
+    <polygon points="394 65.99 400.3 72.29 398.2 74.39 395.5 71.84 395.5 84.99 392.5 84.99 392.5 71.84 389.8 74.39 387.7 72.29 394 65.99"/>
+    <g class="cls-2">
+      <text class="cls-1" transform="translate(46.47 48.01)"><tspan x="0" y="0">Feature 1</tspan></text>
+    </g>
+    <g class="cls-2">
+      <text class="cls-3" transform="translate(440.47 48.01)"><tspan x="0" y="0">PR</tspan></text>
+    </g>
+    <g class="cls-2">
+      <text class="cls-3" transform="translate(406.47 85.01)"><tspan x="0" y="0">PR</tspan></text>
+    </g>
+    <g class="cls-2">
+      <text class="cls-1" transform="translate(69.41 85.03)"><tspan x="0" y="0">Feature 2</tspan></text>
+    </g>
+    <path class="cls-4" d="m122,18.49c0,3.31-2.69,6-6,6s-6-2.69-6-6c-.11-7.79,12.11-7.78,12,0Z"/>
+    <path class="cls-4" d="m147.5,55.49c.11,7.78-12.11,7.78-12,0-.12-7.94,12.12-7.88,12,0Z"/>
+    <path class="cls-4" d="m268,92.49c.11,7.78-12.11,7.78-12,0-.11-7.78,12.11-7.78,12,0Z"/>
+    <path class="cls-4" d="m335,92.49c.11,7.78-12.11,7.78-12,0-.11-7.78,12.11-7.78,12,0Z"/>
+    <path class="cls-4" d="m193,92.49c.11,7.78-12.11,7.78-12,0-.11-7.78,12.11-7.78,12,0Z"/>
+  </g>
+</svg>

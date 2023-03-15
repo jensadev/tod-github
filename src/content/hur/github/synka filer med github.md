@@ -4,7 +4,7 @@ eleventyNavigation:
     key: synka filer med github
     parent: github
     order: 2
-    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
+    excerpt: För att synkronisera ditt lokala Git repo mot remote så behöver du kunna ladda ned ändringar från remote.
 ---
 
 {%- intro %}

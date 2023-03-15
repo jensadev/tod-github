@@ -4,7 +4,7 @@ eleventyNavigation:
     key: git remotes
     parent: git
     order: 5
-    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
+    excerpt: Git körs lokalt på din dator. För att koppla Git till en server så behöver du en remote. En remote är en kopia av ditt repo som ligger på en server, som GitHub.
 ---
 
 {%- intro %}

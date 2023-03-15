@@ -4,7 +4,7 @@ eleventyNavigation:
     key: att ångra med git
     parent: git
     order: 4
-    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
+    excerpt: För att arbeta med historiken i Git så behöver du veta hur du kan ångra ändringar.
 ---
 
 {%- intro %}

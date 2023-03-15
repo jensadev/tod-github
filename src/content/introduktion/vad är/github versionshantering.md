@@ -4,7 +4,7 @@ eleventyNavigation:
     key: github versionshantering
     parent: vad är
     order: 2
-    excerpt: GitHub är ett webbaserat verktyg som använder Git för att sammarbeta kring kod.
+    excerpt: GitHub är ett webbaserat verktyg för versionshantering som använder Git.
 ---
 
 {%- intro %}
