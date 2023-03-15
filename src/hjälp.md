@@ -27,7 +27,7 @@ Det pedagogiska upplägget för den här sidan är baserat på forskning om test
 
 Lästips, [Testbaserat lärande](https://www.nok.se/titlar/akademisk-psykologi2/testbaserat-larande/).
 
-{% endhint %}
+{%- endhint %}
 
 #### Tema
 

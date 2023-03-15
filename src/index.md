@@ -7,6 +7,6 @@ eleventyNavigation:
     order: 0
 ---
 
-{% lead %}
-Detta är en introduktion till versionshantering där Git och GitHub är verktygen du använder. Introduktionen riktar sig till den som inte tidigare använt Git eller GitHub.
-{% endlead %}
+{% lead -%}
+Detta är en introduktion till versionshantering där Git och GitHub är verktygen du använder. Här finns grunderna för hur du använder Git och GitHub för att spara dina filer och samarbeta med andra.
+{%- endlead %}

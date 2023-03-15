@@ -1,6 +1,6 @@
 {
     "name": "tod-github",
-    "version": "2.3.5",
+    "version": "2.5.1",
     "description": "Tema område del för GitHub",
     "scripts": {
         "clean:tod": "rm -f src/json/*.json",
