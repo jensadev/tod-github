@@ -4,7 +4,7 @@ eleventyNavigation:
     key: konflikter
     parent: github
     order: 3
-    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
+    excerpt: När historiken mellan lokalt och remote inte stämmer uppstår en konflikt. 
 ---
 
 {%- intro %}

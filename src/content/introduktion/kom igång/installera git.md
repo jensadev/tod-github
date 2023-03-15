@@ -4,7 +4,7 @@ eleventyNavigation:
     key: installera git
     parent: kom igång
     order: 1
-    excerpt: För att använda Git så behöver du en lämpligt klient.
+    excerpt: För att använda Git så behöver du installera en klient.
 ---
 
 {%- intro %}

@@ -4,7 +4,7 @@ eleventyNavigation:
     key: använda kod från github
     parent: github
     order: 5
-    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
+    excerpt: Ett stort användningsområde med GitHub är att kunna använda någon annas repo eller ladda ned kod.
 ---
 
 {%- intro %}

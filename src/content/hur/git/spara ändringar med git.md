@@ -4,7 +4,7 @@ eleventyNavigation:
     key: spara ändringar med git
     parent: git
     order: 1
-    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
+    excerpt: För att spara ändringar i ett repo så använder Git commits.
 ---
 
 {%- intro %}

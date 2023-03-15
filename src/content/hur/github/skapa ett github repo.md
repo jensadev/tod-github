@@ -4,7 +4,7 @@ eleventyNavigation:
     key: skapa ett github repo
     parent: github
     order: 0
-    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
+    excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt. Det kan skapas på GitHub och användas som en remote till ett lokalt Git repo.
 ---
 
 {%- intro %}
