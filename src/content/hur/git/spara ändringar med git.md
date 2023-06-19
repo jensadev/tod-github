@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: För att spara ändringar i ett repo så använder Git commits.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 *[repo]: Repository
 
@@ -24,9 +26,7 @@ Utöver detta så har varje enskild fil ett tillstånd:
 
 Så alla filer som är untracked känner inte Git till. Men när en fil är tracked så kan den vara i något av de tre tillstånden.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Om du har följt instruktionerna från föregående moment så har du nu ett Git repo. Detta innebär att du har en katalog som innehåller alla filer för ett projekt.
 
@@ -127,16 +127,16 @@ Detta är enklare och snabbare än att använda texteditorn.
 Det är väldigt vanligt att det blir stor förvirring när `git commit` körs och textredigeraren öppnar en fil, särskilt om detta program är Vim. Så för enkelhetens skull, använd `git commit -m "Meddelande"`.
 {%- endhint %}
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
 Förklara skillnaden mellan **untracked** och **tracked**?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

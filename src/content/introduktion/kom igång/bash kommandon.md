@@ -7,13 +7,13 @@ eleventyNavigation:
     excerpt: Här hittar du några vanliga bash kommandon.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 Den här sidan försöker inte vara någon utförlig guide till Bash, men det kan vara bra att känna till lite fler kommandon. Det så att du kan navigera, skapa och ta bort filer och kataloger.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Här nedan hittar du ett antal kommandon för att navigera och manipulera filer.
 
@@ -65,4 +65,4 @@ Var försiktig med att köra kommandon med `sudo`, det kan leda till att du skad
 sudo <kommando>
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}

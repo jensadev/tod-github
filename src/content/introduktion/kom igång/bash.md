@@ -7,20 +7,20 @@ eleventyNavigation:
     excerpt: Bash är en kommandotolk till Linux.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 Bash är en kommandotolk till Linux. Det är en textbaserad gränssnitt som används för att kommunicera med datorn. Bash är en av de vanligaste kommandotolken för Linux.
 
 För att köra den här kursen och använda dig av Git så underlättar det om du har lite grundläggande kunskap om hur du navigerar i filsystemet med bash.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Starta Git Bash eller ett annat terminalprogram.
 När du startar Git Bash så kommer du se en prompt som ser ut ungefär så här:
 
-{% image "gitbashmingw.png", "Git Bash" %}
+{% image "content/images/gitbashmingw.png", "Git Bash" %}
 
 Nu kan du navigera i filsystemet. För att göra det så behöver du använda kommandot `cd` (change directory) följt av vilken katalog du vill byta till. För att navigera till din hemkatalog så skriver du:
 
@@ -46,7 +46,7 @@ touch test.txt
 
 Om du har följt instruktionerna har du nu en katalog som heter `test` med en fil som heter `test.txt` i den katalogen. Kontrollera detta med `ls`.
 
-{% image "cmds.png", "Exempelkommandon i bash" %}
+{% image "content/images/cmds.png", "Exempelkommandon i bash" %}
 
 Nu kan du ta bort katalogen `test` med kommandot `rm` (remove). För att ta bort en katalog så behöver du använda flaggan `-r` (recursive).
 
@@ -56,4 +56,4 @@ Men innan du kan göra detta så behöver du gå upp ett steg i katalogstrukture
 rm -r test
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}

@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: För att synkronisera ditt lokala Git repo mot remote så behöver du kunna ladda ned ändringar från remote.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 För att synkronisera ditt lokala Git repo mot remote så behöver du kunna ladda ned ändringar från remote.
 
@@ -17,9 +19,7 @@ För att se vilka ändringar som är gjorda på remote så kan du först använd
 
 - `pull` kan skriva över dina lokala ändringar
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Du ska nu synkronisera ditt repository med din remote. Först ladda ned ändringarna och sedan ladda upp.
 
@@ -66,4 +66,4 @@ git commit -m "feat: new file push.txt"
 git push
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}

@@ -152,14 +152,14 @@ select {
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
   /* Colors */
-  --color-primary: #484172;
-  --color-on-primary: #B6B2CF;
-  --color-secondary: #c4c4d5;
-  --color-on-secondary: #51515F;
-  --color-primary--light: #5d5492;
-  --color-primary--dark: #332e52;
-  --color-on-primary--light: #d4d1e3;
-  --color-on-primary--dark: #9893bb;
+  --color-primary: #633370;
+  --color-on-primary: #C7ABCE;
+  --color-secondary: #b88690;
+  --color-on-secondary: #3E252A;
+  --color-primary--light: #824393;
+  --color-primary--dark: #44234d;
+  --color-on-primary--light: #dccbe1;
+  --color-on-primary--dark: #b28bbb;
   --color-white: hsl(0, 0%, 98%);
   --color-gray-100: hsl(0, 0%, 96%);
   --color-gray-200: hsl(0, 0%, 93%);

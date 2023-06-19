@@ -5,6 +5,7 @@ const fs = require('fs');
 const { themes } = data;
 
 let questions = themes
+    .filter((area) => area.area !== 'slutuppgifter')
     .map((theme) => {
         let tempTheme = {
             theme: theme.theme,
@@ -32,8 +33,7 @@ let questions = themes
     })
     .filter((theme) => {
         return theme.areas.length > 0;
-    })
-    .filter(theme != "slutuppgifter");
+    });
 
 fs.writeFileSync(
     './src/_data/questions.json',

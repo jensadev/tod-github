@@ -7,20 +7,20 @@ eleventyNavigation:
     excerpt: Ett stort användningsområde med GitHub är att kunna använda någon annas repo eller ladda ned kod.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 *[url]: Uniform Resource Locator, en webbadress
 
 Tidigare i materialet så klonade du ett repo från GitHub. Det var ett sätt att ladda ned koden. Men eftersom du saknade skrivbehörighet till repot så kunde du inte göra ändringar i det.
 
 För att arbeta med kod från en annan användares repo så kan du göra en så kallad **fork** av det. En fork är en kopia av ett repo som du får skrivbehörighet till. Du kan sedan göra ändringar i din fork. Du kan även skicka in en så kallad **pull request** till den ursprungliga användaren för att föreslå att dina ändringar ska läggas till i deras repo.
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Surfa till [övningsrepot på GitHub](https://github.com/NTIG-Umea/tod-github-prac) och klicka på **Fork** i högra hörnet. Detta öppnar dialogen för att skapa en fork.
 
-{% image "fork.png", "Skapa en fork av ett repository" %}
+{% image "content/images/fork.png", "Skapa en fork av ett repository" %}
 
 Fyll i formuläret och klicka på **Create fork**. GitHub skapar då en kopia av repot på ditt konto.
 
@@ -56,7 +56,7 @@ Om du vill att dina ändringar ska läggas till i det ursprungliga repot så kan
 
 Det tar dig till en dialog där du kan se dina commits och vilka filer som ändrats. För att skapa en pull request så klickar du på **Create pull request**.
 
-{% image "pullreq.png", "Skapa en pull request" %}
+{% image "content/images/pullreq.png", "Skapa en pull request" %}
 
 Den användare som äger det ursprungliga repot kommer nu att få en notis om att du har skickat in en pull request. Hen kommer att kunna se vilka ändringar du har gjort och kan välja att godkänna eller avvisa dem.
 
@@ -64,4 +64,4 @@ Den användare som äger det ursprungliga repot kommer nu att få en notis om at
 
 Om det ursprungliga repot har ändrats efter att du skapade din fork så kan du synka din fork med det ursprungliga repot. På sidan för ditt repository så finns det en notis om att du kan synkronisera detta. GitHub kommer då att guida dig genom processen, men om du har gjort ändringar i filerna så kommer du att få konflikter. Du behöver då manuellt lösa konflikterna och välja vilka ändringar som ska behållas.
 
-{% endinstruktioner %}
+{% endinstructions %}

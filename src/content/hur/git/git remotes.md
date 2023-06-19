@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Git körs lokalt på din dator. För att koppla Git till en server så behöver du en remote. En remote är en kopia av ditt repo som ligger på en server, som GitHub.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 *[repo]: Repository
 *[klona]: Spara en kopia av
@@ -18,9 +20,7 @@ För att kunna använda GitHub med Git och för att kunna sammarbeta kring kod s
 
 -   En remote måste inte nödvändigtvis vara GitHub. Det kan vara en annan form av server eller Git-tjänst.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Kommandot för att kontrollera om du har en remote är `git remote`. Det kommer att visa dig vilka remotes som finns för ditt repo.
 
@@ -61,4 +61,4 @@ För att lägga till en remote så skriver du `git remote add <namn> <url>`. Dä
 
 Nästa steg är att använda en egen remote. Det kommer att introduceras i området om [GitHub](/hur/github/).
 
-{% endinstruktioner %}
+{% endinstructions %}
