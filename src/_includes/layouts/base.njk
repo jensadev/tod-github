@@ -13,10 +13,12 @@
     <meta name="apple-mobile-web-app-title" content="{{ meta.siteName }}">
     <meta name="msapplication-TileImage" content="/assets/icons/144.png">
     <meta name="msapplication-TileColor" content="{{ meta.primaryColor }}">
-    {%- include "components/analytics.njk" -%}
     <link rel="apple-touch-icon" href="/assets/icons/152.png">
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <!-- <link rel="stylesheet" href="{{ '/css/style.css' }}" /> -->
+    <link rel="canonical" href="{{ currentUrl }}"/>
+    {% if meta.gtag %}
+    {%- include "partials/analytics.njk" -%}
+    {% endif %}
     <link rel="manifest" href="/manifest.json">
     <style>{% include "assets/css/style.css" %}</style>
     <title>
@@ -29,18 +31,18 @@
 <body class="page-{% if page.fileSlug %}{{
             page.fileSlug
         }}{% else %}home{% endif %}">
-    {% include "components/navigation.njk" %}
+    {% include "partials/navigation.njk" %}
     {% block main %}
     {{ content | safe }}
     {% endblock %}
-    {% include "components/footer.njk" %}
-    {% include "components/templates/feedback.njk" %}
-    {% include "components/templates/continue.njk" %}
-    {% include "components/templates/flash.njk" %}
+    {% include "partials/footer.njk" %}
+    {% include "templates/feedback.njk" %}
+    {% include "templates/continue.njk" %}
+    {% include "templates/flash.njk" %}
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"
         integrity="sha512-0QarUp4p9r5IqUgSRyP89BHga45OpEd7VR8lbRkJkf48p/EhcU742fWUpKpoDyu9N6XYAEq/vz6m6z1OolnsDw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script defer src="/js/bundle.js"></script>
+    <script defer src="/js/bundle.min.js"></script>
 </body>
 
 </html>

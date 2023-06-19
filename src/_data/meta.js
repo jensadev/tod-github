@@ -42,6 +42,7 @@ module.exports = {
     language: 'sv',
     // Sidans namn, måste överrensstämma med src/index.md title front matter
     siteName: 'Git och GitHub',
+    pwaName: 'git.jensa.dev',
     primaryColor: curated[9].p, // curated[0-31] pick or color string '#ff4e50'
     secondaryColor: curated[9].s, // pick or color string '#ff4e50'
     siteDescription:

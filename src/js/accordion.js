@@ -18,10 +18,12 @@ const accordion = () => {
         <style>
           h3 {
             margin: 0;
+            min-height: 48px;
           }
           h3 button {
             all: inherit;
             justify-content: space-between;
+            align-items: center;
             display: flex;
             box-sizing: border-box;
             width: 100%;
@@ -45,7 +47,6 @@ const accordion = () => {
           [aria-expanded] rect {
             fill: currentColor;
           }
-
         </style>
       `;
 
@@ -156,8 +157,8 @@ const accordion = () => {
             const buttons = document.createElement('div');
             buttons.innerHTML = `
               <ul class="accordion__controls" aria-label="section controls">
-                <li><button id="expand" class="button">visa alla</button></li>
-                <li><button id="collapse" class="button">dölj alla</button></li>
+                <li><button id="expand" class="button button--primary">visa alla</button></li>
+                <li><button id="collapse" class="button button--primary">dölj alla</button></li>
               </ul>
               `;
 
