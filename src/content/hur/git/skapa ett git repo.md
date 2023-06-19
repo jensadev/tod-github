@@ -7,15 +7,15 @@ eleventyNavigation:
     excerpt: Ett repository är en katalog som innehåller alla filer för ett projekt.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 *[repo]: Repository
 
 Ett Git repo  är en katalog som innehåller alla filer för ett projekt. Det är en katalog som du behöver skapa och initiera för att Git ska kunna spåra ändringar i filerna.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 För att arbeta med Git behöver du först skapa ett Git repo. Detta gör du genom att skapa en katalog och initiera den med Git. Skapa först en katalog och gå in i den.
 
@@ -44,4 +44,4 @@ Om du vill använda ett befintligt Git repo kan du använda kommandot `git clone
 git clone <repo url>
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}

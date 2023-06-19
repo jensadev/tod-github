@@ -7,13 +7,13 @@ eleventyNavigation:
     excerpt: Innan du kan använda Git så behöver du konfigurera ditt namn och din e-postadress.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 När du installerat färdigt Git så är du nästan redo att börja använda Git. Men för att arbeta med Git så behöver du ange ditt namn och din e-postadress. Det är för att kunna identifera vem som har arbetat med koden.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 För att konfigurera användainformationen i Git så behöver du starta **Git Bash** på din dator. När du har startat programmet så är det enklast att använda följande kommandon i terminalen för att spara dina uppgifter:
 
@@ -46,4 +46,4 @@ Kommandot för det är:
 git config --global --edit
 ```
 
-{% endinstruktioner %}
+{% endinstructions %}

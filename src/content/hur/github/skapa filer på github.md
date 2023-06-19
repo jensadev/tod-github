@@ -7,15 +7,15 @@ eleventyNavigation:
     excerpt: Filer kan skapas och commitas på GitHub genom webbplatsen.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 *[repo]: Repository
 
 Du kan skapa filer på GitHub genom att använda GitHubs webbgränssnitt. Det kan vara bra om du snabbt vill skapa och redigera en ny fil i GitHubs webbgränssnitt.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Öppna ditt repo på GitHub i webbläsaren. Klicka på knappen för att lägga till en README fil, **Add a README**. Du får då upp en dialog för att skapa en `README.md` fil för ditt projekt. Filen är skriven med [Markdown](https://www.markdownguide.org/basic-syntax/), vilket är ett format för att formatera text på. GitHub har redan lagt till en rubrik i din fil, prova att skriva en kort text i filen.
 
@@ -31,4 +31,4 @@ När du är klar så kan du välja att skriva ett commit meddelande eller använ
 
 Detta sker på ungefär samma sätt som att skapa ny filer, du använder GitHubs webbgränssnitt för att göra detta och skapa en commit. Prova.
 
-{% endinstruktioner %}
+{% endinstructions %}

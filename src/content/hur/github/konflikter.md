@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: När historiken mellan lokalt och remote inte stämmer uppstår en konflikt. 
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 Konflikter är oundvikliga när du arbetar med Git och GitHub, förr eller senare kommer det att ske. Med en konflikt menas att du har ändringar i en eller flera filer på remote och lokalt som inte är synkroniserade. När du får en konflikt så måste du lösa den genom att berätta för Git vilken ändring du vill behålla.
 
@@ -15,9 +17,7 @@ Konflikter är oundvikliga när du arbetar med Git och GitHub, förr eller senar
 En inte helt ovanlig lösning på konflikter är att användaren kopierar de lokala filerna till en annan plats, tar bort hela repo katalogen och klonar ner repot igen för att sedan kopiera in ändringarna. Det är dock inte en bra lösning då du förlorar historiken för ditt repository.
 {%- endhint %}
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Du ska nu skapa en konflikt för att sedan lösa den med hjälp av Git och GitHub.
 
@@ -97,4 +97,4 @@ git push
 
 Grattis, du har nu löst konflikten och kan fortsätta arbeta med ditt projekt.
 
-{% endinstruktioner %}
+{% endinstructions %}

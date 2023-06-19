@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: Git är ett system för versionshantering.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 *[repo]: Repository
 
@@ -18,15 +20,13 @@ Git är ett versionshanteringssystem som används för att spara och hantera än
 -   Ett repository är en katalog som innehåller alla filer för ett projekt, tillsammans med dess historik.
 -   Git körs lokalt, så för att köra Git behöver du inte vara ansluten till internet eller registrera ett konto.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 När du använder Git så behöver du köra vissa kommandon för att spara filernas ändringar, så kallade commits. När du gör en commit så sparar Git en snapshot av filerna i ditt repository, deras nuvarande tillstånd.
 
 Så för att använda illustrationen från föregående förklaring så får varje steg nu en commit. Varje commit innehåller nu en komplett historik över dina filer.
 
-{% image "commits.svg", "Illustration av versionshantering" %}
+{% image "content/images/commits.svg", "Illustration av versionshantering" %}
 
 ### Tre tillstånd (states)
 
@@ -42,16 +42,16 @@ Git har tre stycken tillstånd för filerna i ett repo. Detta är:
 
 Git är i grunden terminalbaserat. Men det går att köra Git genom de flesta utvecklingsmiljöer ([IDE](https://sv.wikipedia.org/wiki/Integrerad_utvecklingsmilj%C3%B6)). Det finns ett flertal olika klienter för att arbeta med Git, bland annat Git-scm och GitHub.
 
-{% endinstruktioner %}
+{% endinstructions %}
 
-{% uppgifter %}
+{% questions %}
 
-{% bas %}
+{% base %}
 
 #### Uppgift 1
 
 Vilka tre tillstånd har filerna i ett Git-repo?
 
-{% endbas %}
+{% endbase %}
 
-{% enduppgifter %}
+{% endquestions %}

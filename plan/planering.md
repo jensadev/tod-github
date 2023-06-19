@@ -70,13 +70,13 @@ Stegen här kan följas oavsett om du kör Git i bash (med eller utan WSL) eller
 
 Skapa och initialisera ett repository med GitHub desktop.
 
-{% image "github-desktop-create-new.png", "GitHub desktop - Initialize repository" %}
+{% image "content/images/github-desktop-create-new.png", "GitHub desktop - Initialize repository" %}
 
 * Skapa ett nytt repository med namnet grunderna
 * Klicka på "Initialize this repository with a README"
 * Klicka på "Create repository"
 
-{% image "github-desktop-repo-new.png", "GitHub desktop - New repository" %}
+{% image "content/images/github-desktop-repo-new.png", "GitHub desktop - New repository" %}
 
 Ditt repo är skapat och ändringarna, skapa readme är redan committade.
 
@@ -87,6 +87,6 @@ Det gör du genom att klicka på den blå knappen i GitHub desktop som heter "Pu
 
 I dialogrutan som kommer upp så kan du välja att publicera ditt repository till GitHub. Du väljer där repositoryts namn och synlighet, om det ska vara public eller private.
 
-{% image "github-desktop-publish-repo.png", "GitHub desktop - Publish repository" %}
+{% image "content/images/github-desktop-publish-repo.png", "GitHub desktop - Publish repository" %}
 
 När repositoryt är publicerat så syns det på GitHub och du kan välja att öppna det i din webbläsare genom att klicka på View on GitHub. -->

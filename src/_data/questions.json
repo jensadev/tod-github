@@ -1,23 +1,75 @@
 [
   {
-    "theme": "varfor",
-    "areas": [
-      {
-        "area": "pedagogiskt",
-        "parts": []
-      }
-    ]
-  },
-  {
     "theme": "hur",
     "areas": [
       {
-        "area": "arbetsflode-och-begrepp",
-        "parts": []
+        "area": "arbetsflode",
+        "parts": [
+          {
+            "part": "foresla-andringar,-pull-requests",
+            "questions": []
+          },
+          {
+            "part": "branches",
+            "questions": []
+          },
+          {
+            "part": "sla-ihop-branches,-merge",
+            "questions": []
+          }
+        ]
       },
       {
         "area": "git",
-        "parts": []
+        "parts": [
+          {
+            "part": "att-angra-med-git",
+            "questions": []
+          },
+          {
+            "part": "git-historik",
+            "questions": []
+          },
+          {
+            "part": "git-remotes",
+            "questions": []
+          },
+          {
+            "part": "skapa-ett-git-repo",
+            "questions": []
+          },
+          {
+            "part": "spara-andringar-med-git",
+            "questions": [
+              "Förklara skillnaden mellan untracked och tracked?"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "github",
+        "parts": [
+          {
+            "part": "anvanda-kod-fran-github",
+            "questions": []
+          },
+          {
+            "part": "konflikter",
+            "questions": []
+          },
+          {
+            "part": "skapa-ett-github-repo",
+            "questions": []
+          },
+          {
+            "part": "skapa-filer-pa-github",
+            "questions": []
+          },
+          {
+            "part": "synka-filer-med-github",
+            "questions": []
+          }
+        ]
       }
     ]
   },
@@ -25,41 +77,64 @@
     "theme": "introduktion",
     "areas": [
       {
+        "area": "kom-igang",
+        "parts": [
+          {
+            "part": "bash-kommandon",
+            "questions": []
+          },
+          {
+            "part": "bash",
+            "questions": []
+          },
+          {
+            "part": "github-konto",
+            "questions": []
+          },
+          {
+            "part": "installera-git",
+            "questions": []
+          },
+          {
+            "part": "konfigurera-git",
+            "questions": []
+          }
+        ]
+      },
+      {
         "area": "vad-ar",
         "parts": [
           {
-            "part": "hur",
-            "assignments": []
+            "part": "git-versionshantering",
+            "questions": [
+              "Vilka tre tillstånd har filerna i ett Git-repo?"
+            ]
           },
           {
-            "part": "git-versionshantering",
-            "assignments": []
+            "part": "github-versionshantering",
+            "questions": []
           },
           {
             "part": "versionshantering",
-            "assignments": [
+            "questions": [
               "Vad menas med versionshantering?",
               "Ge exempel på versionshantering?"
             ]
           }
         ]
+      }
+    ]
+  },
+  {
+    "theme": "varfor",
+    "areas": [
+      {
+        "area": "pedagogiskt",
+        "parts": []
       },
       {
-        "area": "kom-igang",
-        "parts": [
-          {
-            "part": "installera-git",
-            "assignments": []
-          },
-          {
-            "part": "github-konto",
-            "assignments": []
-          },
-          {
-            "part": "konfigurera-git",
-            "assignments": []
-          }
-        ]
+        "area": "samarbete",
+        "parts": []
       }
     ]
   }

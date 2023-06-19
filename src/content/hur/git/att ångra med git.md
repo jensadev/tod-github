@@ -7,7 +7,9 @@ eleventyNavigation:
     excerpt: För att arbeta med historiken i Git så behöver du veta hur du kan ångra ändringar.
 ---
 
-{%- intro %}
+{% instructions %}
+
+## Introduktion
 
 Att ångra ändringar i ditt projekt är något som kommer att hända förr eller senare. Det är därför viktigt att veta hur du kan ångra ändringar i Git.
 
@@ -16,9 +18,7 @@ Att ångra ändringar i ditt projekt är något som kommer att hända förr elle
 -   Det är viktigt att tänka på att du inte kan ångra en commit som du har pushat till en remote.
 -   Att ändra eller återställa filer kan leda till att du förlorar ändringar som du inte har committat.
 
-{% endintro %}
-
-{%- instruktioner %}
+## Instruktioner
 
 Fortsätt att arbeta på det repo du skapade i föregående moment.
 
@@ -42,4 +42,4 @@ Du kan ångra ändringar med `git restore --staged <filnamn>`. Detta kommer att 
 
 Det går även att återställa filen till den senaste versionen genom att skriva `git restore <filnamn>`.
 
-{% endinstruktioner %}
+{% endinstructions %}
