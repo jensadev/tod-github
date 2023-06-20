@@ -13,14 +13,14 @@ Systemet och innehållet på den här sidan är licensierat under [CC BY-NC 4.0]
 Denna template är en grunden för att jag, du eller andra ska kunna bygga kurswebbar utifrån en pedagogiska tanke om att dela upp ett ämne i teman, områden och delar.
 Templaten används på följande sidor:
 
--   [webbutveckling](https://github.com/jensnti/tod-webbutveckling)
--   [programmering](https://github.com/jensnti/tod-programmering)
+-   [webbutveckling](https://github.com/    /tod-webbutveckling)
+-   [programmering](https://github.com/jensadev/tod-programmering)
 
 För att skapa din egen kurswebb så kan du utgå från denna template. Den kommer med instruktioner för att komma igång, men de är inte 100% uppdaterade.
 
 ## Installation
 
-[Use template](https://github.com/jensnti/tod/generate)
+[Use template](https://github.com/jensadev/tod/generate)
 
 Download/clone repo to local
 
