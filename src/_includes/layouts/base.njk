@@ -25,6 +25,8 @@
     </title>
 </head>
 
+{% include "partials/analytics.njk" %}
+
 <body class="page-{% if page.fileSlug %}{{
             page.fileSlug
         }}{% else %}home{% endif %}">
