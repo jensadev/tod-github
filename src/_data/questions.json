@@ -1,84 +1,14 @@
 [
   {
-    "theme": "hur",
-    "areas": [
-      {
-        "area": "arbetsflode",
-        "parts": [
-          {
-            "part": "foresla-andringar,-pull-requests",
-            "questions": []
-          },
-          {
-            "part": "branches",
-            "questions": []
-          },
-          {
-            "part": "sla-ihop-branches,-merge",
-            "questions": []
-          }
-        ]
-      },
-      {
-        "area": "git",
-        "parts": [
-          {
-            "part": "att-angra-med-git",
-            "questions": []
-          },
-          {
-            "part": "git-historik",
-            "questions": []
-          },
-          {
-            "part": "git-remotes",
-            "questions": []
-          },
-          {
-            "part": "skapa-ett-git-repo",
-            "questions": []
-          },
-          {
-            "part": "spara-andringar-med-git",
-            "questions": [
-              "Förklara skillnaden mellan untracked och tracked?"
-            ]
-          }
-        ]
-      },
-      {
-        "area": "github",
-        "parts": [
-          {
-            "part": "anvanda-kod-fran-github",
-            "questions": []
-          },
-          {
-            "part": "konflikter",
-            "questions": []
-          },
-          {
-            "part": "skapa-ett-github-repo",
-            "questions": []
-          },
-          {
-            "part": "skapa-filer-pa-github",
-            "questions": []
-          },
-          {
-            "part": "synka-filer-med-github",
-            "questions": []
-          }
-        ]
-      }
-    ]
-  },
-  {
     "theme": "introduktion",
     "areas": [
       {
         "area": "kom-igang",
         "parts": [
+          {
+            "part": "installera-git",
+            "questions": []
+          },
           {
             "part": "bash-kommandon",
             "questions": []
@@ -89,10 +19,6 @@
           },
           {
             "part": "github-konto",
-            "questions": []
-          },
-          {
-            "part": "installera-git",
             "questions": []
           },
           {
@@ -120,6 +46,80 @@
               "Vad menas med versionshantering?",
               "Ge exempel på versionshantering?"
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "hur",
+    "areas": [
+      {
+        "area": "github",
+        "parts": [
+          {
+            "part": "konflikter",
+            "questions": []
+          },
+          {
+            "part": "anvanda-kod-fran-github",
+            "questions": []
+          },
+          {
+            "part": "skapa-ett-github-repo",
+            "questions": []
+          },
+          {
+            "part": "skapa-filer-pa-github",
+            "questions": []
+          },
+          {
+            "part": "synka-filer-med-github",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "area": "git",
+        "parts": [
+          {
+            "part": "att-angra-med-git",
+            "questions": []
+          },
+          {
+            "part": "git-remotes",
+            "questions": []
+          },
+          {
+            "part": "skapa-ett-git-repo",
+            "questions": []
+          },
+          {
+            "part": "git-historik",
+            "questions": []
+          },
+          {
+            "part": "spara-andringar-med-git",
+            "questions": [
+              "Förklara skillnaden mellan untracked och tracked?"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "arbetsflode",
+        "parts": [
+          {
+            "part": "branches",
+            "questions": []
+          },
+          {
+            "part": "foresla-andringar,-pull-requests",
+            "questions": []
+          },
+          {
+            "part": "sla-ihop-branches,-merge",
+            "questions": []
           }
         ]
       }
